@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e0f9b8fb23fdb88e2797524b55c3ac0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87744
+  packageName: A* Pathfinding Project Pro
+  packageVersion: 5.2.1
+  assetPath: Packages/com.arongranberg.astar/Core/ECS/Jobs/ManagedOffMeshLinkTransitionJob.cs
+  uploadId: 697719
