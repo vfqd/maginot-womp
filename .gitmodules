@@ -1,0 +1,9 @@
+[submodule "Assets/Plugins/Framework"]
+	path = Assets/Plugins/Framework
+	url = https://github.com/Free-Lives/Framework.git
+[submodule "Assets/Plugins/Sound-Manager"]
+	path = Assets/Plugins/Sound-Manager
+	url = https://github.com/Free-Lives/Sound-Manager.git
+[submodule "Assets/Plugins/Basic-Assets"]
+	path = Assets/Plugins/Basic-Assets
+	url = https://github.com/Free-Lives/Basic-Assets.git
