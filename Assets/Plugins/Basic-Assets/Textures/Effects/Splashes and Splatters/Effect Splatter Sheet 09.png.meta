@@ -1,0 +1,2492 @@
+fileFormatVersion: 2
+guid: b55de68e6abb7cc4691aa7e8287cb93c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -294597623323103485
+    second: Effect Splatter Sheet 09_0
+  - first:
+      213: -5982830391898852463
+    second: Effect Splatter Sheet 09_1
+  - first:
+      213: -2046497718413810320
+    second: Effect Splatter Sheet 09_2
+  - first:
+      213: 40561906137403658
+    second: Effect Splatter Sheet 09_3
+  - first:
+      213: -1072098040036917530
+    second: Effect Splatter Sheet 09_4
+  - first:
+      213: -3374533287234521776
+    second: Effect Splatter Sheet 09_5
+  - first:
+      213: -3124918154577006835
+    second: Effect Splatter Sheet 09_6
+  - first:
+      213: -7982161772032976401
+    second: Effect Splatter Sheet 09_7
+  - first:
+      213: 937319281862153917
+    second: Effect Splatter Sheet 09_8
+  - first:
+      213: 2972964401379750647
+    second: Effect Splatter Sheet 09_9
+  - first:
+      213: 778755586955339395
+    second: Effect Splatter Sheet 09_10
+  - first:
+      213: 2655703249136334718
+    second: Effect Splatter Sheet 09_11
+  - first:
+      213: 5941618945001905855
+    second: Effect Splatter Sheet 09_12
+  - first:
+      213: 4465931634421005482
+    second: Effect Splatter Sheet 09_13
+  - first:
+      213: -8563645864191781273
+    second: Effect Splatter Sheet 09_14
+  - first:
+      213: 2845680535294574816
+    second: Effect Splatter Sheet 09_15
+  - first:
+      213: 4188689743713435687
+    second: Effect Splatter Sheet 09_16
+  - first:
+      213: -1349931171550707221
+    second: Effect Splatter Sheet 09_17
+  - first:
+      213: 990461729134019456
+    second: Effect Splatter Sheet 09_18
+  - first:
+      213: 1841574131898315672
+    second: Effect Splatter Sheet 09_19
+  - first:
+      213: -8071718158680783914
+    second: Effect Splatter Sheet 09_20
+  - first:
+      213: -2664918864551217312
+    second: Effect Splatter Sheet 09_21
+  - first:
+      213: 9195495431577236357
+    second: Effect Splatter Sheet 09_22
+  - first:
+      213: -5311212373670145705
+    second: Effect Splatter Sheet 09_23
+  - first:
+      213: -5302846858606222171
+    second: Effect Splatter Sheet 09_24
+  - first:
+      213: 6815215734155019856
+    second: Effect Splatter Sheet 09_25
+  - first:
+      213: 6559522639065271904
+    second: Effect Splatter Sheet 09_26
+  - first:
+      213: -7541846383503160031
+    second: Effect Splatter Sheet 09_27
+  - first:
+      213: 1468745230376618039
+    second: Effect Splatter Sheet 09_28
+  - first:
+      213: -5492012456013453587
+    second: Effect Splatter Sheet 09_29
+  - first:
+      213: 990936901973007441
+    second: Effect Splatter Sheet 09_30
+  - first:
+      213: 7785023242457755929
+    second: Effect Splatter Sheet 09_31
+  - first:
+      213: -4945305742811623541
+    second: Effect Splatter Sheet 09_32
+  - first:
+      213: 7909527003519840811
+    second: Effect Splatter Sheet 09_33
+  - first:
+      213: 5996393888738178700
+    second: Effect Splatter Sheet 09_34
+  - first:
+      213: -9221776814271800442
+    second: Effect Splatter Sheet 09_35
+  - first:
+      213: 7701210211967796319
+    second: Effect Splatter Sheet 09_36
+  - first:
+      213: -470719053467147460
+    second: Effect Splatter Sheet 09_37
+  - first:
+      213: 1470548813489547449
+    second: Effect Splatter Sheet 09_38
+  - first:
+      213: -3808518779625104181
+    second: Effect Splatter Sheet 09_39
+  - first:
+      213: -7084616271812263406
+    second: Effect Splatter Sheet 09_40
+  - first:
+      213: 4246786215966312271
+    second: Effect Splatter Sheet 09_41
+  - first:
+      213: 4494290014228088533
+    second: Effect Splatter Sheet 09_42
+  - first:
+      213: -4559320228420230329
+    second: Effect Splatter Sheet 09_43
+  - first:
+      213: -5287486314849121688
+    second: Effect Splatter Sheet 09_44
+  - first:
+      213: 7265588395458151264
+    second: Effect Splatter Sheet 09_45
+  - first:
+      213: 8361149255730672054
+    second: Effect Splatter Sheet 09_46
+  - first:
+      213: 2836733029082110251
+    second: Effect Splatter Sheet 09_47
+  - first:
+      213: -8984134381330411734
+    second: Effect Splatter Sheet 09_48
+  - first:
+      213: -8334415367967153988
+    second: Effect Splatter Sheet 09_49
+  - first:
+      213: -2474916758589465980
+    second: Effect Splatter Sheet 09_50
+  - first:
+      213: -3063542305904071097
+    second: Effect Splatter Sheet 09_51
+  - first:
+      213: -9016067226863979530
+    second: Effect Splatter Sheet 09_52
+  - first:
+      213: 7256276671368804024
+    second: Effect Splatter Sheet 09_53
+  - first:
+      213: 518864226814493704
+    second: Effect Splatter Sheet 09_54
+  - first:
+      213: 1618876161950879344
+    second: Effect Splatter Sheet 09_55
+  - first:
+      213: -6024255341056014948
+    second: Effect Splatter Sheet 09_56
+  - first:
+      213: -2698927171489560831
+    second: Effect Splatter Sheet 09_57
+  - first:
+      213: 5045697732031511500
+    second: Effect Splatter Sheet 09_58
+  - first:
+      213: 5363096009639482570
+    second: Effect Splatter Sheet 09_59
+  - first:
+      213: -9116342327397214079
+    second: Effect Splatter Sheet 09_60
+  - first:
+      213: -5559646643289628283
+    second: Effect Splatter Sheet 09_61
+  - first:
+      213: -1535328510506829490
+    second: Effect Splatter Sheet 09_62
+  - first:
+      213: -7497523394076933881
+    second: Effect Splatter Sheet 09_63
+  - first:
+      213: 1088500091886359636
+    second: Effect Splatter Sheet 09_64
+  - first:
+      213: -806134688392624785
+    second: Effect Splatter Sheet 09_65
+  - first:
+      213: -5719645664767649295
+    second: Effect Splatter Sheet 09_66
+  - first:
+      213: 9027797486696036213
+    second: Effect Splatter Sheet 09_67
+  - first:
+      213: -1502411564347591359
+    second: Effect Splatter Sheet 09_68
+  - first:
+      213: -5044344737185859449
+    second: Effect Splatter Sheet 09_69
+  - first:
+      213: -8518577564459260373
+    second: Effect Splatter Sheet 09_70
+  - first:
+      213: -54562928729308088
+    second: Effect Splatter Sheet 09_71
+  - first:
+      213: 3631015539339566337
+    second: Effect Splatter Sheet 09_72
+  - first:
+      213: -4015110850838204358
+    second: Effect Splatter Sheet 09_73
+  - first:
+      213: -1058063376029187502
+    second: Effect Splatter Sheet 09_74
+  - first:
+      213: -2635832401641965120
+    second: Effect Splatter Sheet 09_75
+  - first:
+      213: -5179500895180442189
+    second: Effect Splatter Sheet 09_76
+  - first:
+      213: -2331578608938531440
+    second: Effect Splatter Sheet 09_77
+  - first:
+      213: 7282165023676639741
+    second: Effect Splatter Sheet 09_78
+  - first:
+      213: 4541693620091984605
+    second: Effect Splatter Sheet 09_79
+  - first:
+      213: -2829155820361885875
+    second: Effect Splatter Sheet 09_80
+  - first:
+      213: 3229252797349346501
+    second: Effect Splatter Sheet 09_81
+  - first:
+      213: -4821455500642434839
+    second: Effect Splatter Sheet 09_82
+  - first:
+      213: 5555542333275555160
+    second: Effect Splatter Sheet 09_83
+  - first:
+      213: 7671139953762461441
+    second: Effect Splatter Sheet 09_84
+  - first:
+      213: 9118177038957256410
+    second: Effect Splatter Sheet 09_85
+  - first:
+      213: -2998996067185551573
+    second: Effect Splatter Sheet 09_86
+  - first:
+      213: 255828333422640450
+    second: Effect Splatter Sheet 09_87
+  - first:
+      213: 1122264074244454892
+    second: Effect Splatter Sheet 09_88
+  - first:
+      213: -2235618558548307045
+    second: Effect Splatter Sheet 09_89
+  - first:
+      213: -881838923519545227
+    second: Effect Splatter Sheet 09_90
+  - first:
+      213: -4831071597809254056
+    second: Effect Splatter Sheet 09_91
+  - first:
+      213: -1652535395492965624
+    second: Effect Splatter Sheet 09_92
+  - first:
+      213: -8369923960554578751
+    second: Effect Splatter Sheet 09_93
+  - first:
+      213: 2357557010193499376
+    second: Effect Splatter Sheet 09_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 319
+        width: 142
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fe62eb50169ebf0800000000000000
+      internalID: -294597623323103485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 318
+        width: 167
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193357bf477b8fca0800000000000000
+      internalID: -5982830391898852463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 471
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0752c4cfa216993e0800000000000000
+      internalID: -2046497718413810320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 394
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a019bb6b6da109000800000000000000
+      internalID: 40561906137403658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 437
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eef43743842f11f0800000000000000
+      internalID: -1072098040036917530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 431
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055b7a3badf3b21d0800000000000000
+      internalID: -3374533287234521776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 419
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fa444be7f02a4d0800000000000000
+      internalID: -3124918154577006835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_7
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 427
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9954ed82aa93190800000000000000
+      internalID: -7982161772032976401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 428
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db69484bbe6020d00800000000000000
+      internalID: 937319281862153917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 420
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f23f122f57124920800000000000000
+      internalID: 2972964401379750647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_10
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 407
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386e25f8412beca00800000000000000
+      internalID: 778755586955339395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 409
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e773f99d804fad420800000000000000
+      internalID: 2655703249136334718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 411
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbed19f43fed47250800000000000000
+      internalID: 5941618945001905855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 347
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacf7d4f82d2afd30800000000000000
+      internalID: 4465931634421005482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 400
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7661b9a6571d72980800000000000000
+      internalID: -8563645864191781273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 389
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e00a7aae53ed7720800000000000000
+      internalID: 2845680535294574816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_16
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 395
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7208c581127312a30800000000000000
+      internalID: 4188689743713435687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 390
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be14e7070c4144de0800000000000000
+      internalID: -1349931171550707221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 388
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08307a8e1b3debd00800000000000000
+      internalID: 990461729134019456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 377
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f8577ae59e8910800000000000000
+      internalID: 1841574131898315672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 372
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d303c8b91f7bff80800000000000000
+      internalID: -8071718158680783914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 381
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067ff2b796e440bd0800000000000000
+      internalID: -2664918864551217312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 374
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58373ec0066fc9f70800000000000000
+      internalID: 9195495431577236357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_23
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 375
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7515bb47c78ca46b0800000000000000
+      internalID: -5311212373670145705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4ea76b0e08866b0800000000000000
+      internalID: -5302846858606222171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_25
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 362
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05686f50a92849e50800000000000000
+      internalID: 6815215734155019856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_26
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 357
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e4e9d161b180b50800000000000000
+      internalID: 6559522639065271904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 343
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dcab03caaf55790800000000000000
+      internalID: -7541846383503160031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 333
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738c52a5108026410800000000000000
+      internalID: 1468745230376618039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 342
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de62c49e4c378c3b0800000000000000
+      internalID: -5492012456013453587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_30
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 347
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c5de4bcd380cd00800000000000000
+      internalID: 990936901973007441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 319
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911bad66465f90c60800000000000000
+      internalID: 7785023242457755929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 305
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f8306d0aebe5bb0800000000000000
+      internalID: -4945305742811623541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_33
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 317
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22f82a37e844cd60800000000000000
+      internalID: 7909527003519840811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 311
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86ff87b878773350800000000000000
+      internalID: 5996393888738178700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_35
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 315
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b5563b8daa50080800000000000000
+      internalID: -9221776814271800442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 314
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5483f092e130ea60800000000000000
+      internalID: 7701210211967796319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_37
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 313
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33251dc38ba779f0800000000000000
+      internalID: -470719053467147460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_38
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 315
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8aae4ca50786410800000000000000
+      internalID: 1470548813489547449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_39
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 287
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc9a0c295c652bc0800000000000000
+      internalID: -3808518779625104181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_40
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 318
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2128da469036ead90800000000000000
+      internalID: -7084616271812263406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 303
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4782bf109d9fea30800000000000000
+      internalID: 4246786215966312271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 290
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d686a7c4fcee5e30800000000000000
+      internalID: 4494290014228088533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_43
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 297
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74362c7986a0ab0c0800000000000000
+      internalID: -4559320228420230329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 301
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86acda006331f96b0800000000000000
+      internalID: -5287486314849121688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 290
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063cb73a62e84d460800000000000000
+      internalID: 7265588395458151264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_46
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b139d5e2f4c80470800000000000000
+      internalID: 8361149255730672054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_47
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 215
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b299e0909a91e5720800000000000000
+      internalID: 2836733029082110251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_48
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f4d625161f15380800000000000000
+      internalID: -8984134381330411734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_49
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 219
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0e2c56165365c80800000000000000
+      internalID: -8334415367967153988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a1d9b125457add0800000000000000
+      internalID: -2474916758589465980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_51
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 189
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee43e018c1c75d0800000000000000
+      internalID: -3063542305904071097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 198
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f33bb750ae70e280800000000000000
+      internalID: -9016067226863979530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b634ecef2973b460800000000000000
+      internalID: 7256276671368804024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_54
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 43
+        width: 146
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8048fe5e340633700800000000000000
+      internalID: 518864226814493704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_55
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 195
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e0e68ca47677610800000000000000
+      internalID: 1618876161950879344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_56
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c954b186fab856ca0800000000000000
+      internalID: -6024255341056014948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_57
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10707bc790c7b8ad0800000000000000
+      internalID: -2698927171489560831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 55
+        width: 202
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb7bb1aa5be50640800000000000000
+      internalID: 5045697732031511500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_59
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 181
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac450e6e76b8d6a40800000000000000
+      internalID: 5363096009639482570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_60
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 151
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18891a424fe3c7180800000000000000
+      internalID: -9116342327397214079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_61
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 147
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581670e85da28d2b0800000000000000
+      internalID: -5559646643289628283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_62
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 158
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49f5bdaada61bae0800000000000000
+      internalID: -1535328510506829490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_63
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 156
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7010dd8523273f790800000000000000
+      internalID: -7497523394076933881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_64
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 151
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454ddd201112b1f00800000000000000
+      internalID: 1088500091886359636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_65
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 141
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65cc31a5c800d4f0800000000000000
+      internalID: -806134688392624785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_66
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 146
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9db66629cbf90b0800000000000000
+      internalID: -5719645664767649295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_67
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 131
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5777eaa9bfd294d70800000000000000
+      internalID: 9027797486696036213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_68
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 133
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1457f9074ac562be0800000000000000
+      internalID: -1502411564347591359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 125
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788fc670033eef9b0800000000000000
+      internalID: -5044344737185859449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_70
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 129
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262bc6a6dee7c980800000000000000
+      internalID: -8518577564459260373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_71
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8444f2f2e472e3ff0800000000000000
+      internalID: -54562928729308088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_72
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d12442565f36230800000000000000
+      internalID: 3631015539339566337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_73
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30f8f144f57748c0800000000000000
+      internalID: -4015110850838204358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_74
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 105
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2520ee127f00151f0800000000000000
+      internalID: -1058063376029187502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_75
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 106
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c97aac5564ab6bd0800000000000000
+      internalID: -2635832401641965120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_76
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 105
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5b3f4c067be18b0800000000000000
+      internalID: -5179500895180442189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_77
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095c150cb9194afd0800000000000000
+      internalID: -2331578608938531440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_78
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92508a1827f0560800000000000000
+      internalID: 7282165023676639741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_79
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 77
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda9d38d846570f30800000000000000
+      internalID: 4541693620091984605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_80
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47d91955c1dcb8d0800000000000000
+      internalID: -2829155820361885875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_81
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 75
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccb1f35f4c90dc20800000000000000
+      internalID: 3229252797349346501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_82
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0cadf64cfb61db0800000000000000
+      internalID: -4821455500642434839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_83
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 53
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855c88d4150491d40800000000000000
+      internalID: 5555542333275555160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_84
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 54
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107615ef42d557a60800000000000000
+      internalID: 7671139953762461441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_85
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 54
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade9b2ee4b54a8e70800000000000000
+      internalID: 9118177038957256410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_86
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b279c9c57fc6166d0800000000000000
+      internalID: -2998996067185551573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_87
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24df2298382ec8300800000000000000
+      internalID: 255828333422640450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_88
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 45
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9f581ca35139f00800000000000000
+      internalID: 1122264074244454892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_89
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93157c04cc79f0e0800000000000000
+      internalID: -2235618558548307045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_90
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 39
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5703186db2413c3f0800000000000000
+      internalID: -881838923519545227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_91
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 43
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851c9185af594fcb0800000000000000
+      internalID: -4831071597809254056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_92
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803d1e430d30119e0800000000000000
+      internalID: -1652535395492965624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_93
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 32
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc1d1ee08e08db80800000000000000
+      internalID: -8369923960554578751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter Sheet 09_94
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 20
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4c0522c99b7b020800000000000000
+      internalID: 2357557010193499376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

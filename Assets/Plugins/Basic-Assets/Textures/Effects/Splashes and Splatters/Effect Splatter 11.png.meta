@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: 283b1c76adc1de048ac2aa426f1de641
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7167504045546496890
+    second: Effect Splatter 11_0
+  - first:
+      213: 3654056109232163504
+    second: Effect Splatter 11_1
+  - first:
+      213: 5550972385282264393
+    second: Effect Splatter 11_2
+  - first:
+      213: -3790621001867838575
+    second: Effect Splatter 11_3
+  - first:
+      213: 8938922034729484867
+    second: Effect Splatter 11_4
+  - first:
+      213: -7146648062124911284
+    second: Effect Splatter 11_5
+  - first:
+      213: 6960288172306204824
+    second: Effect Splatter 11_6
+  - first:
+      213: 4071613147380987247
+    second: Effect Splatter 11_7
+  - first:
+      213: 5745051328033680895
+    second: Effect Splatter 11_8
+  - first:
+      213: 9025332587041700371
+    second: Effect Splatter 11_9
+  - first:
+      213: -5981939979042316057
+    second: Effect Splatter 11_10
+  - first:
+      213: 5611158034665512944
+    second: Effect Splatter 11_11
+  - first:
+      213: -5827171832049022705
+    second: Effect Splatter 11_12
+  - first:
+      213: 4014251047992400674
+    second: Effect Splatter 11_13
+  - first:
+      213: -7176052108130352453
+    second: Effect Splatter 11_14
+  - first:
+      213: 4846285832169996578
+    second: Effect Splatter 11_15
+  - first:
+      213: -3776124722300315610
+    second: Effect Splatter 11_16
+  - first:
+      213: -3450734373946784352
+    second: Effect Splatter 11_17
+  - first:
+      213: 1049781355589298683
+    second: Effect Splatter 11_18
+  - first:
+      213: -5163865733841994774
+    second: Effect Splatter 11_19
+  - first:
+      213: -5708630061447781356
+    second: Effect Splatter 11_20
+  - first:
+      213: 2676967160028468154
+    second: Effect Splatter 11_21
+  - first:
+      213: -1685412079367532593
+    second: Effect Splatter 11_22
+  - first:
+      213: -8712763820458932557
+    second: Effect Splatter 11_23
+  - first:
+      213: -6955721926274884410
+    second: Effect Splatter 11_24
+  - first:
+      213: 2881750672152667351
+    second: Effect Splatter 11_25
+  - first:
+      213: -6088342652375745677
+    second: Effect Splatter 11_26
+  - first:
+      213: -3029054914065159066
+    second: Effect Splatter 11_27
+  - first:
+      213: 212051609401280382
+    second: Effect Splatter 11_28
+  - first:
+      213: 5539291177373625124
+    second: Effect Splatter 11_29
+  - first:
+      213: -6406167820631168048
+    second: Effect Splatter 11_30
+  - first:
+      213: -8627434822060481528
+    second: Effect Splatter 11_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect Splatter 11_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 298
+        width: 41
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7369f054f6187360800000000000000
+      internalID: 7167504045546496890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 305
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba012cdba0d5b230800000000000000
+      internalID: 3654056109232163504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 331
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d80ce59f3090d40800000000000000
+      internalID: 5550972385282264393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 102
+        width: 108
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b38894842056bc0800000000000000
+      internalID: -3790621001867838575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 299
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34286faea3e6d0c70800000000000000
+      internalID: 8938922034729484867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 312
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c459f4ab37102dc90800000000000000
+      internalID: -7146648062124911284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 287
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8980aac2739e79060800000000000000
+      internalID: 6960288172306204824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 235
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f653470d596418830800000000000000
+      internalID: 4071613147380987247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 280
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd65d78eb58abf40800000000000000
+      internalID: 5745051328033680895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 274
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ab06e6b2c604d70800000000000000
+      internalID: 9025332587041700371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 265
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0a9716841ebfca0800000000000000
+      internalID: -5981939979042316057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_11
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 273
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff11dad086dedd40800000000000000
+      internalID: 5611158034665512944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 122
+        width: 82
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f094e89a71ab12fa0800000000000000
+      internalID: -5827171832049022705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 256
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b93da4f0c75b730800000000000000
+      internalID: 4014251047992400674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 245
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb28235c0aa896c90800000000000000
+      internalID: -7176052108130352453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_15
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 223
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2214082a947714340800000000000000
+      internalID: 4846285832169996578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 229
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62818b36292889bc0800000000000000
+      internalID: -3776124722300315610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 235
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a50ca2ae578c10d0800000000000000
+      internalID: -3450734373946784352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 233
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf96ab7b492919e00800000000000000
+      internalID: 1049781355589298683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb398279734658b0800000000000000
+      internalID: -5163865733841994774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_20
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 213
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414e949643fd6c0b0800000000000000
+      internalID: -5708630061447781356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 220
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab312e8e27f762520800000000000000
+      internalID: 2676967160028468154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf452db4a63c98e0800000000000000
+      internalID: -1685412079367532593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 217
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b68bada77b061780800000000000000
+      internalID: -8712763820458932557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 196
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc5df3d2cf487f90800000000000000
+      internalID: -6955721926274884410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 203
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d427e8d7f80ef720800000000000000
+      internalID: 2881750672152667351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_26
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bb8467d9cd18ba0800000000000000
+      internalID: -6088342652375745677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_27
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 198
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66caef1ba92a6f5d0800000000000000
+      internalID: -3029054914065159066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_28
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 194
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77c964b0db51f200800000000000000
+      internalID: 212051609401280382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_29
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 192
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b6fc63af38fdc40800000000000000
+      internalID: 5539291177373625124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_30
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 81
+        width: 81
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbadb7fe48b817a0800000000000000
+      internalID: -6406167820631168048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Splatter 11_31
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 112
+        width: 21
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804ef3c4db1354880800000000000000
+      internalID: -8627434822060481528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

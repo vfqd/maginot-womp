@@ -1,0 +1,1717 @@
+fileFormatVersion: 2
+guid: 898bbf324f866d0428e79b0c40bac079
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2445456995122335406
+    second: Effect Impact 39_0
+  - first:
+      213: -8226394614659788258
+    second: Effect Impact 39_1
+  - first:
+      213: -1147757174781502066
+    second: Effect Impact 39_2
+  - first:
+      213: 8477361990374610578
+    second: Effect Impact 39_3
+  - first:
+      213: 376159156253053219
+    second: Effect Impact 39_4
+  - first:
+      213: 1193005544062373892
+    second: Effect Impact 39_5
+  - first:
+      213: -3634457142640225604
+    second: Effect Impact 39_6
+  - first:
+      213: -8618927158834942850
+    second: Effect Impact 39_7
+  - first:
+      213: -2138748370964115903
+    second: Effect Impact 39_8
+  - first:
+      213: 1852631151316446709
+    second: Effect Impact 39_9
+  - first:
+      213: 7356661411122560138
+    second: Effect Impact 39_10
+  - first:
+      213: -2385379341612952270
+    second: Effect Impact 39_11
+  - first:
+      213: 4535383614225560315
+    second: Effect Impact 39_12
+  - first:
+      213: -2726890370322277957
+    second: Effect Impact 39_13
+  - first:
+      213: -7283731788770213875
+    second: Effect Impact 39_14
+  - first:
+      213: -2759510897121542089
+    second: Effect Impact 39_15
+  - first:
+      213: -4194055880659118155
+    second: Effect Impact 39_16
+  - first:
+      213: -7312935482499928214
+    second: Effect Impact 39_17
+  - first:
+      213: -3450983942780344791
+    second: Effect Impact 39_18
+  - first:
+      213: 401053857399255355
+    second: Effect Impact 39_19
+  - first:
+      213: 3914699522132535374
+    second: Effect Impact 39_20
+  - first:
+      213: 197843524320500731
+    second: Effect Impact 39_21
+  - first:
+      213: 2590581070017345518
+    second: Effect Impact 39_22
+  - first:
+      213: 3550351116041103768
+    second: Effect Impact 39_23
+  - first:
+      213: 6602737977805878448
+    second: Effect Impact 39_24
+  - first:
+      213: 2725070220128469501
+    second: Effect Impact 39_25
+  - first:
+      213: 7875864734103439772
+    second: Effect Impact 39_26
+  - first:
+      213: 6694164135645677550
+    second: Effect Impact 39_27
+  - first:
+      213: 5323155840634547422
+    second: Effect Impact 39_28
+  - first:
+      213: 8821421586224077149
+    second: Effect Impact 39_29
+  - first:
+      213: 7545629744180496742
+    second: Effect Impact 39_30
+  - first:
+      213: -2782991408914692510
+    second: Effect Impact 39_31
+  - first:
+      213: -2427949855408260555
+    second: Effect Impact 39_32
+  - first:
+      213: -8151469102591957247
+    second: Effect Impact 39_33
+  - first:
+      213: 735792031493407925
+    second: Effect Impact 39_34
+  - first:
+      213: -7375390337679254292
+    second: Effect Impact 39_35
+  - first:
+      213: 8138682909432608993
+    second: Effect Impact 39_36
+  - first:
+      213: -4778751287128164759
+    second: Effect Impact 39_37
+  - first:
+      213: -8785180674393312224
+    second: Effect Impact 39_38
+  - first:
+      213: 2262498655125664029
+    second: Effect Impact 39_39
+  - first:
+      213: -1861671228683653991
+    second: Effect Impact 39_40
+  - first:
+      213: -6598113428158332910
+    second: Effect Impact 39_41
+  - first:
+      213: 2699032603024915401
+    second: Effect Impact 39_42
+  - first:
+      213: -4856143896141791112
+    second: Effect Impact 39_43
+  - first:
+      213: 7347163659107407458
+    second: Effect Impact 39_44
+  - first:
+      213: -1597253612662088030
+    second: Effect Impact 39_45
+  - first:
+      213: 7988065915534347930
+    second: Effect Impact 39_46
+  - first:
+      213: 6178290053320116095
+    second: Effect Impact 39_47
+  - first:
+      213: 1401857864499409868
+    second: Effect Impact 39_48
+  - first:
+      213: -4302122677181589092
+    second: Effect Impact 39_49
+  - first:
+      213: -7415628263801247497
+    second: Effect Impact 39_50
+  - first:
+      213: 6641014642229037330
+    second: Effect Impact 39_51
+  - first:
+      213: 3994168987595734120
+    second: Effect Impact 39_52
+  - first:
+      213: -360438524202019724
+    second: Effect Impact 39_53
+  - first:
+      213: 3486198365278080518
+    second: Effect Impact 39_54
+  - first:
+      213: 2882142077783610171
+    second: Effect Impact 39_55
+  - first:
+      213: -1417061132021836173
+    second: Effect Impact 39_56
+  - first:
+      213: -2959239131822305861
+    second: Effect Impact 39_57
+  - first:
+      213: 7285428421603997007
+    second: Effect Impact 39_58
+  - first:
+      213: -6502516762869466011
+    second: Effect Impact 39_59
+  - first:
+      213: -6699017971814246452
+    second: Effect Impact 39_60
+  - first:
+      213: -5498528988270447530
+    second: Effect Impact 39_61
+  - first:
+      213: -1511239852377440118
+    second: Effect Impact 39_62
+  - first:
+      213: -799809921845747872
+    second: Effect Impact 39_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect Impact 39_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 222
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2513d3cc1ddff0ed0800000000000000
+      internalID: -2445456995122335406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 176
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12540beea9f5dd80800000000000000
+      internalID: -8226394614659788258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 211
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d1ebc3ee85210f0800000000000000
+      internalID: -1147757174781502066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 200
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2965da4b0d3a5a570800000000000000
+      internalID: 8477361990374610578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 164
+        width: 30
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321597772c2683500800000000000000
+      internalID: 376159156253053219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 14
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400d8e4b8386e8010800000000000000
+      internalID: 1193005544062373892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 196
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb25c852c70df8dc0800000000000000
+      internalID: -3634457142640225604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 178
+        width: 21
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c2da00a6b636880800000000000000
+      internalID: -8618927158834942850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 205
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e0dbc20b3a152e0800000000000000
+      internalID: -2138748370964115903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 191
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd2a0a673ed5b910800000000000000
+      internalID: 1852631151316446709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 203
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cb8ce739c181660800000000000000
+      internalID: 7356661411122560138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 206
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235da98802e65eed0800000000000000
+      internalID: -2385379341612952270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 197
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2ba0e1e5be0fe30800000000000000
+      internalID: 4535383614225560315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 173
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9d187e7a3282ad0800000000000000
+      internalID: -2726890370322277957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 189
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00812b678cfaea90800000000000000
+      internalID: -7283731788770213875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 150
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7304047a57f34b9d0800000000000000
+      internalID: -2759510897121542089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 160
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7dc29c568bbc5c0800000000000000
+      internalID: -4194055880659118155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 168
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fed3c9ceb338a90800000000000000
+      internalID: -7312935482499928214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 170
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926200d5364ab10d0800000000000000
+      internalID: -3450983942780344791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 125
+        width: 88
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b313512cb54d09500800000000000000
+      internalID: 401053857399255355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 160
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48e913797ec35630800000000000000
+      internalID: 3914699522132535374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb1c3c13a1eeb200800000000000000
+      internalID: 197843524320500731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 154
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee73c38f1c793f320800000000000000
+      internalID: 2590581070017345518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 147
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899aa8b8781654130800000000000000
+      internalID: 3550351116041103768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 151
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4b9104533a1ab50800000000000000
+      internalID: 6602737977805878448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 138
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1c0ca5de461d520800000000000000
+      internalID: 2725070220128469501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 133
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99034f5f31bc4d60800000000000000
+      internalID: 7875864734103439772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 137
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7025d60d276ec50800000000000000
+      internalID: 6694164135645677550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 51
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc6115a806afd940800000000000000
+      internalID: 5323155840634547422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 126
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5959dcd13cfb6a70800000000000000
+      internalID: 8821421586224077149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 109
+        width: 60
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669008c164677b860800000000000000
+      internalID: 7545629744180496742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 106
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2660daafe04d069d0800000000000000
+      internalID: -2782991408914692510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 103
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53afde768703e4ed0800000000000000
+      internalID: -2427949855408260555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_33
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 102
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1072f6e1a0a20ee80800000000000000
+      internalID: -8151469102591957247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 85
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b44ab944fe063a00800000000000000
+      internalID: 735792031493407925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 85
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec97ca709955a990800000000000000
+      internalID: -7375390337679254292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 84
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8f54c4cf862f070800000000000000
+      internalID: 8138682909432608993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_37
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 84
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966f8c4f5077eadb0800000000000000
+      internalID: -4778751287128164759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 82
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024f827f8b4c41680800000000000000
+      internalID: -8785180674393312224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 79
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1170932a82066f10800000000000000
+      internalID: 2262498655125664029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 95
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ceebd81e30a26e0800000000000000
+      internalID: -1861671228683653991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_41
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 69
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21043ee9bcace64a0800000000000000
+      internalID: -6598113428158332910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_42
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 53
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb7f743ad3e47520800000000000000
+      internalID: 2699032603024915401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 53
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870894cfad28b9cb0800000000000000
+      internalID: -4856143896141791112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 28
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26691c7cb6e56f560800000000000000
+      internalID: 7347163659107407458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_45
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 74
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae11194d4a65d9e0800000000000000
+      internalID: -1597253612662088030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 28
+        width: 8
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e84d9a0af4bde60800000000000000
+      internalID: 7988065915534347930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_47
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 16
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77897bc112bdb550800000000000000
+      internalID: 6178290053320116095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_48
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 46
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc33317ec46647310800000000000000
+      internalID: 1401857864499409868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_49
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99507ef73acb44c0800000000000000
+      internalID: -4302122677181589092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 59
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8a7cd3265661990800000000000000
+      internalID: -7415628263801247497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 48
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219ca3aa1af992c50800000000000000
+      internalID: 6641014642229037330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 5
+        width: 11
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c768e38832e6730800000000000000
+      internalID: 3994168987595734120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_53
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 35
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474929962177ffaf0800000000000000
+      internalID: -360438524202019724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_54
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 41
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e82fa41f6716030800000000000000
+      internalID: 3486198365278080518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_55
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 31
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b339f7213fc6ff720800000000000000
+      internalID: 2882142077783610171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_56
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 11
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37653d88866955ce0800000000000000
+      internalID: -1417061132021836173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_57
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 13
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdcb4630bbaee6d0800000000000000
+      internalID: -2959239131822305861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_58
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 8
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45bd32bc8a0b1560800000000000000
+      internalID: 7285428421603997007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_59
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 29
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c742bb47b62c5a0800000000000000
+      internalID: -6502516762869466011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 23
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7dd06c5ae4803a0800000000000000
+      internalID: -6699017971814246452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_61
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 35
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654b3f2840d41b3b0800000000000000
+      internalID: -5498528988270447530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_62
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 13
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8001a47c5ff60be0800000000000000
+      internalID: -1511239852377440118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Impact 39_63
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 8
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f1d881d1186e4f0800000000000000
+      internalID: -799809921845747872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
