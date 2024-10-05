@@ -32,15 +32,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReferenceTexture:
-        m_Texture: {fileID: 2800000, guid: d8142a79871179644aca3f7a8f8eb1ab, type: 3}
+        m_Texture: {fileID: 2800000, guid: 04617e2631f3ec149b1dde28b9c86c60, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - PixelSnap: 0
-    - _PixelsPerUnit: 16
+    - _PixelsPerUnit: 1
     m_Colors:
-    - _CellDiscolor: {r: 1, g: 0.9256168, b: 0.8066038, a: 1}
+    - _CellDiscolor: {r: 1, g: 1, b: 1, a: 1}
     - _Center: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}

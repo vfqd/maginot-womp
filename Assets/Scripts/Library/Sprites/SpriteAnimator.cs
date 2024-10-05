@@ -12,6 +12,8 @@ namespace Library.Sprites
         [SerializeField] private bool playOnAwake;
         [SerializeField] private float animSpeedMultiplier = 1;
         
+        public SpriteRenderer hat;
+
         [ShowInInspector] public SpriteAnimation ActiveAnimation => _activeAnimation;
         
         private SpriteAnimation _activeAnimation;
@@ -58,6 +60,11 @@ namespace Library.Sprites
             
             _frameStartTime = Time.time;
             _spriteRenderer.sprite = _activeAnimation.frames[_frameIndex].sprite;
+            if (hat)
+            {
+                hat.transform.SetLocalY(_activeAnimation.frames[_frameIndex].hatOffset * 0.125f);
+                hat.flipX = _spriteRenderer.flipX;
+            }
             
             if (_activeAnimation.frames[_frameIndex].hasEvent)
             {

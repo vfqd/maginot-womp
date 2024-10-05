@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffbebe0403942b1a1c7b6640865cadb, type: 3}
+  m_Name: WompMining
+  m_EditorClassIdentifier: 
+  frames:
+  - duration: 0.2
+    sprite: {fileID: -512544515, guid: 0de7e9bd8aef57e4ab93e482a3174398, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: 1805719788, guid: 0de7e9bd8aef57e4ab93e482a3174398, type: 3}
+    hatOffset: -1
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: 921693561, guid: 0de7e9bd8aef57e4ab93e482a3174398, type: 3}
+    hatOffset: -3
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: 1697992808, guid: 0de7e9bd8aef57e4ab93e482a3174398, type: 3}
+    hatOffset: 3
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.3
+    sprite: {fileID: 1312564816, guid: 0de7e9bd8aef57e4ab93e482a3174398, type: 3}
+    hatOffset: 1
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  loop: 1
+  startAtRandomIndex: 0
+  startingFrame: 0

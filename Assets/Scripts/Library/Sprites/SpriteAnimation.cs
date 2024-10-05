@@ -52,13 +52,14 @@ namespace Library.Sprites
             public float duration;
             [HorizontalGroup("Sprite"),PreviewField,HideLabel]
             public Sprite sprite;
+            [HorizontalGroup("Hat Offset"),HideLabel] public int hatOffset;
             [HideLabel,VerticalGroup("Event")]
             public bool hasEvent;
             [HideLabel,VerticalGroup("Event"),/*ShowIf(nameof(hasEvent))*/HideInInspector]
             public string eventClassName;
             [HideLabel,VerticalGroup("Event"),/*ShowIf(nameof(hasEvent))*/HideInInspector]
             public string animationEvent;
-            
+
 /*#if UNITY_EDITOR
             private string[] GetAllScripts()
             {

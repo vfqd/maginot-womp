@@ -1,7 +1,9 @@
 ﻿using System;
 using Framework;
+using Game;
 using Library.Extensions;
 using Library.Grid;
+using Pathfinding;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -13,10 +15,15 @@ namespace Map
         [PreviewField] public Sprite[] groundSprites;
         [PreviewField] public Sprite[] oceanSprites;
         [PreviewField] public Sprite[] sandcastleSprites;
+        [PreviewField] public Sprite ladderSprite;
         [PreviewField] public GameObject upEdge;
         [PreviewField] public GameObject downEdge;
         [PreviewField] public GameObject leftEdge;
         [PreviewField] public GameObject rightEdge;
+        public GameObject bg;
+        public GameObject col;
+
+        public TileHealth tileHealth;
         
         private SpriteRenderer _spriteRenderer;
         public TileType Type;
@@ -37,6 +44,7 @@ namespace Map
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _offset = Random.Range(0, 5f);
+            tileHealth = GetComponent<TileHealth>();
         }
 
         private void Update()
@@ -45,6 +53,67 @@ namespace Map
             {
                 transform.SetLocalY(Y+Mathf.Sin(_offset+Time.time*3)*0.1f);
             }
+        }
+
+        public bool CanBeStoodOn()
+        {
+            if (Type.IsSolid() && Type != TileType.Ladder) return false;
+            var belowTile = this.DownNeighbour();
+            if (belowTile && belowTile.Type.IsNotSolid() && belowTile.Type != TileType.Ladder)
+            {
+                return false;
+            };
+            return true;
+        }
+
+        public Tile GetNeighbourThatCanBeStoodOn()
+        {
+            var down = this.DownNeighbour();
+            if (down && down.CanBeStoodOn()) return down;
+            foreach (var n in this.Get8NeighboursEnumerable())
+            {
+                if (n.CanBeStoodOn())
+                {
+                    return n;
+                }
+            }
+            return null;
+        }
+
+        public void UpdatePathing()
+        {
+            col.SetActive(Type is TileType.Ground or TileType.Sandcastle);
+
+            var walkability = false;
+            if (Type == TileType.Ladder) walkability = true;
+            else if (Type is TileType.Air or TileType.Room)
+            {
+                if (this.DownNeighbour()?.Type is TileType.Ground or TileType.Sandcastle or TileType.Ladder)
+                    walkability = true;
+                else if (this.DownNeighbour()?.Type == TileType.Air)
+                {
+                    if (this.DownNeighbour()?.DownNeighbour()?.Type == TileType.Air)
+                        walkability = false;
+                    else if (this.DownLeftNeighbour()?.Type is TileType.Ground or TileType.Sandcastle)
+                        walkability = true;
+                    else if (this.DownRightNeighbour()?.Type is TileType.Ground or TileType.Sandcastle)
+                        walkability = true;
+                }
+            }
+            else if (Type == TileType.Sandcastle)
+            {
+                if (this.DownNeighbour()?.Type is TileType.Ground)
+                {
+                    walkability = true;
+                }
+            }
+
+            GraphUpdateObject guo = new GraphUpdateObject(new Bounds(transform.position,Vector3.one))
+            {
+                modifyWalkability = true,
+                setWalkability = walkability
+            };
+            AstarPath.active.UpdateGraphs(guo);
         }
 
         public void SetSprite()
@@ -60,6 +129,9 @@ namespace Map
                 case TileType.Sandcastle:
                     _spriteRenderer.sprite = sandcastleSprites.GetRandomElement();
                     break;
+                case TileType.Ladder:
+                    _spriteRenderer.sprite = ladderSprite;
+                    break;
                 case TileType.Ocean:
                     if (Random.value < 0.05f)
                     {
@@ -67,6 +139,9 @@ namespace Map
                         if (this.UpNeighbour()?.UpNeighbour()?.Type == TileType.Air) break;
                         _spriteRenderer.sprite = oceanSprites.GetRandomElement();
                     }
+                    break;
+                default:
+                    _spriteRenderer.sprite = null;
                     break;
             }
 
@@ -84,6 +159,40 @@ namespace Map
                 leftEdge.SetActive(false);
                 rightEdge.SetActive(false);
             }
+            
+            bg.SetActive(Type == TileType.Ground);
+        }
+
+        public void ChangeTileTo(TileType type)
+        {
+            if (Type == TileType.Ground && type == TileType.Air)
+            {
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, Mathf.Min(1,58 - Y));
+            }
+            else if (Type == TileType.Sandcastle && type == TileType.Air)
+            {
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, 1);
+            }
+            
+            Type = type;
+            SetSprite();
+            UpdatePathing();
+
+            foreach (var neighbour in this.Get8NeighboursEnumerable())
+            {
+                neighbour.SetSprite();
+                neighbour.UpdatePathing();
+            }
+                        
+            var up = this.UpNeighbour();
+            if (up && up.Type.IsNotSolid())
+            {
+                foreach (var neighbour in up.Get4NeighboursEnumerable())
+                {
+                    neighbour.SetSprite();
+                    neighbour.UpdatePathing();
+                }
+            }
         }
     }
 
@@ -92,7 +201,22 @@ namespace Map
         Air,
         Ground,
         Ocean,
-        Sandcastle
+        Sandcastle,
+        Ladder,
+        Room
+    }
+
+    public static class TypeExtensions
+    {
+        public static bool IsSolid(this TileType type)
+        {
+            return type is TileType.Ground or TileType.Sandcastle or TileType.Ladder;
+        }
+        
+        public static bool IsNotSolid(this TileType type)
+        {
+            return type is TileType.Air or TileType.Ladder or TileType.Room;
+        }
     }
 
 }
