@@ -103,6 +103,7 @@ public partial class FloatParameter
 	public static FloatParameter ArtilleryReloadSpeed { get { if (__artilleryReloadSpeed == null) __artilleryReloadSpeed = GetValue<FloatParameter>("ArtilleryReloadSpeed"); return __artilleryReloadSpeed; } }
 	public static FloatParameter BunksWompsAllowed { get { if (__bunksWompsAllowed == null) __bunksWompsAllowed = GetValue<FloatParameter>("BunksWompsAllowed"); return __bunksWompsAllowed; } }
 	public static FloatParameter CanSwimInSea { get { if (__canSwimInSea == null) __canSwimInSea = GetValue<FloatParameter>("CanSwimInSea"); return __canSwimInSea; } }
+	public static FloatParameter CanWavesBringSand { get { if (__canWavesBringSand == null) __canWavesBringSand = GetValue<FloatParameter>("CanWavesBringSand"); return __canWavesBringSand; } }
 	public static FloatParameter CostArcher { get { if (__costArcher == null) __costArcher = GetValue<FloatParameter>("CostArcher"); return __costArcher; } }
 	public static FloatParameter CostArmory { get { if (__costArmory == null) __costArmory = GetValue<FloatParameter>("CostArmory"); return __costArmory; } }
 	public static FloatParameter CostArtillery { get { if (__costArtillery == null) __costArtillery = GetValue<FloatParameter>("CostArtillery"); return __costArtillery; } }
@@ -114,6 +115,7 @@ public partial class FloatParameter
 	public static FloatParameter CostRange { get { if (__costRange == null) __costRange = GetValue<FloatParameter>("CostRange"); return __costRange; } }
 	public static FloatParameter CostSandcastle { get { if (__costSandcastle == null) __costSandcastle = GetValue<FloatParameter>("CostSandcastle"); return __costSandcastle; } }
 	public static FloatParameter DigsWompsAllowed { get { if (__digsWompsAllowed == null) __digsWompsAllowed = GetValue<FloatParameter>("DigsWompsAllowed"); return __digsWompsAllowed; } }
+	public static FloatParameter FactorySeaPlastic { get { if (__factorySeaPlastic == null) __factorySeaPlastic = GetValue<FloatParameter>("FactorySeaPlastic"); return __factorySeaPlastic; } }
 	public static FloatParameter FactoryWompsAllowed { get { if (__factoryWompsAllowed == null) __factoryWompsAllowed = GetValue<FloatParameter>("FactoryWompsAllowed"); return __factoryWompsAllowed; } }
 	public static FloatParameter HubWompsAllowed { get { if (__hubWompsAllowed == null) __hubWompsAllowed = GetValue<FloatParameter>("HubWompsAllowed"); return __hubWompsAllowed; } }
 	public static FloatParameter LabSpeedPerWomp { get { if (__labSpeedPerWomp == null) __labSpeedPerWomp = GetValue<FloatParameter>("LabSpeedPerWomp"); return __labSpeedPerWomp; } }
@@ -138,6 +140,7 @@ public partial class FloatParameter
 	protected static FloatParameter __artilleryReloadSpeed;
 	protected static FloatParameter __bunksWompsAllowed;
 	protected static FloatParameter __canSwimInSea;
+	protected static FloatParameter __canWavesBringSand;
 	protected static FloatParameter __costArcher;
 	protected static FloatParameter __costArmory;
 	protected static FloatParameter __costArtillery;
@@ -149,6 +152,7 @@ public partial class FloatParameter
 	protected static FloatParameter __costRange;
 	protected static FloatParameter __costSandcastle;
 	protected static FloatParameter __digsWompsAllowed;
+	protected static FloatParameter __factorySeaPlastic;
 	protected static FloatParameter __factoryWompsAllowed;
 	protected static FloatParameter __hubWompsAllowed;
 	protected static FloatParameter __labSpeedPerWomp;

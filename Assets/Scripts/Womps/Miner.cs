@@ -51,7 +51,7 @@ namespace Womps
             _retaskTimer -= Time.deltaTime;
             if (_retaskTimer < 0)
             {
-                _retaskTimer = 1;
+                _retaskTimer = 0.5f;
                 TryGetNewTarget();
             }
         }

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ArtilleryRange
   m_EditorClassIdentifier: 
   _guid: a9677ac3306941447ae0b96e805aad40
-  startingValue: 40
-  value: 40
+  startingValue: 30
+  value: 30

@@ -92,6 +92,23 @@ namespace Game
                 });
         }
 
+        public void DestroyPile(ResourcePile pile)
+        {
+            if (piles.Contains(pile)) piles.Remove(pile);
+            Runner toRemove = null;
+            foreach (var kvp in reservations)
+            {
+                if (kvp.Value == pile)
+                {
+                    toRemove = kvp.Key;
+                    break;
+                }
+            }
+            if (toRemove) reservations.Remove(toRemove);
+            
+            Destroy(pile.gameObject);
+        }
+
         public void SetResourceValue(ResourceType resourceType, float value)
         {
             resourceCounts[resourceType] = Mathf.Max(0, value);

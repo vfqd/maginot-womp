@@ -124,6 +124,7 @@ MonoBehaviour:
   plasticMaxValue: {fileID: 11400000, guid: 56138310766290343b2995242abd7921, type: 2}
   waveMoveSpeed: {fileID: 11400000, guid: c63be5bce4b7b624eb7687b16d80d107, type: 2}
   waveSize: {fileID: 11400000, guid: 15e80bee7a652c949bddd09123fbfa65, type: 2}
+  canSpawnSand: {fileID: 11400000, guid: 823a5b5cbaf1c25479a4d8cf810c95f5, type: 2}
   willDie: 0
 --- !u!1 &6691500047875194257
 GameObject:

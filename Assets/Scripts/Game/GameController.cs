@@ -12,6 +12,8 @@ namespace Game
     {
         public FloatParameter ladderCost;
         public FloatParameter castleCost;
+
+        public bool showCutscene;
         
         public float wompsAvailable;
         
@@ -32,6 +34,9 @@ namespace Game
             hub.AddWomp();
             var digs = MapController.Instance.PlaceBuildingAt(BuildingType.Diggers,57,56);
             digs.AddWomp();
+            
+            if (showCutscene) CutsceneController.Instance.PlayCutscene();
+            else CutsceneController.Instance.EndCutscene();
         }
 
         private void Update()

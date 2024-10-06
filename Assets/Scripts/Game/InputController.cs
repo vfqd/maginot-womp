@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Framework;
 using Library;
 using Library.Grid;
 using Map;
@@ -18,6 +19,12 @@ namespace Game
         public Sprite artilleryRoom;
         public Tool currentTool;
 
+        public float panSpeed = 10;
+        public FloatRange xExtents;
+        public FloatRange yExtents;
+
+        public Transform cam;
+
         public Dictionary<Tool, Sprite> toolSprites;
 
         public ToolButton currentButton;
@@ -26,6 +33,7 @@ namespace Game
 
         private void Update()
         {
+            RunCameraListener();
             var worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             var snappedPos = new Vector3(Mathf.RoundToInt(worldPos.x), Mathf.RoundToInt(worldPos.y));
 
@@ -141,7 +149,11 @@ namespace Game
                     if (Input.GetMouseButtonDown(0))
                     {
                         var tool = currentButton;
-                        if (tool.HasCost) ResourcesController.Instance.ChangeResourceValue(tool.resourceCost, -tool.cost);
+                        if (tool.HasCost)
+                        {
+                            ResourcesController.Instance.ChangeResourceValue(tool.resourceCost, -tool.cost);
+                            tool.cost.AddValue(tool.cost.startingValue);
+                        }
                         MapController.Instance.PlaceBuildingAt(currentRoom, tileUnderCursor.X, tileUnderCursor.Y);
                     }
                 }
@@ -172,6 +184,24 @@ namespace Game
             }
             
             mouseFollow.transform.position = snappedPos;
+        }
+        
+        private void RunCameraListener()
+        {
+            Vector2 dir = Vector2.zero;
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) dir += Vector2.left;
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) dir += Vector2.right;
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) dir += Vector2.up;
+            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) dir += Vector2.down;
+            PanCamera(dir.normalized);
+        }
+        
+        private void PanCamera(Vector2 dir)
+        {
+            var pos = cam.position;
+            float x = Mathf.Clamp(pos.x + dir.x * panSpeed * Time.deltaTime,xExtents.Min,xExtents.Max);
+            float y = Mathf.Clamp(pos.y + dir.y * panSpeed * Time.deltaTime,yExtents.Min,yExtents.Max);
+            cam.position = new Vector3(x, y, pos.z);
         }
 
         public void SelectTool(Button button)

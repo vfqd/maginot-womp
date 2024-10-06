@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CostBunks
   m_EditorClassIdentifier: 
   _guid: 1faffc58df37c454683038a48a1d5e66
-  startingValue: 10
-  value: 10
+  startingValue: 5
+  value: 5

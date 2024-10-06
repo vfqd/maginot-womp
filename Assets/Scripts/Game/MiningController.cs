@@ -68,7 +68,8 @@ namespace Game
                         // Whatever end of path is closest to its destination
                         return ABPath.Construct(position, tilePosition).vectorPath.Count;
                     })
-                    .ThenByDescending(t => t.Y);
+                    .ThenByDescending(t => t.Y)
+                    .ThenByDescending(t => t.X);
                 
                 return ordered.First();
             }

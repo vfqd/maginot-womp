@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 11241
+  controlID: 198618
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -49,7 +49,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 79
-    width: 1053
+    width: 1052
     height: 915
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -104,23 +104,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1053
+      width: 1052
       height: 894
-    m_Scale: {x: 0.5484375, y: 0.5484375}
-    m_Translation: {x: 526.5, y: 447}
+    m_Scale: {x: 0.54791665, y: 0.54791665}
+    m_Translation: {x: 526, y: 447}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960.00006
-      y: -815.0428
-      width: 1920.0001
-      height: 1630.0856
+      x: -960
+      y: -815.8175
+      width: 1920
+      height: 1631.635
     m_MinimalGUI: 1
-  m_defaultScale: 0.5484375
-  m_LastWindowPixelSize: {x: 1053, y: 915}
+  m_defaultScale: 0.54791665
+  m_LastWindowPixelSize: {x: 1052, y: 915}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 150}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 0
-  controlID: 11209
+  controlID: 198589
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -169,7 +169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1054
+    width: 1053
     height: 941
   m_MinSize: {x: 51, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
@@ -181,7 +181,7 @@ MonoBehaviour:
   - {fileID: 7}
   - {fileID: 8}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 3
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 79
-    width: 1053
+    width: 1052
     height: 915
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -831,9 +831,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 44.047104, y: 64.47435, z: -9.032414}
+    m_Target: {x: 12.497704, y: 67.875206, z: -0.22817032}
     speed: 2
-    m_Value: {x: 44.047104, y: 64.47435, z: -9.032414}
+    m_Value: {x: 12.497704, y: 67.875206, z: -0.22817032}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -883,9 +883,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.9878726
+    m_Target: 23.531189
     speed: 2
-    m_Value: 7.9878726
+    m_Value: 23.531189
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1234,14 +1234,14 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
-    x: 1054
+    x: 1053
     y: 0
-    width: 393
+    width: 394
     height: 941
   m_MinSize: {x: 100, y: 150}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 11210
+  controlID: 198590
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -1260,7 +1260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 393
+    width: 394
     height: 50
   m_MinSize: {x: 50, y: 18}
   m_MaxSize: {x: 4000, y: 4000}
@@ -1290,9 +1290,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "History\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1054
+    x: 1053
     y: 79
-    width: 391
+    width: 392
     height: 24
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1308,112 +1308,58 @@ MonoBehaviour:
   _selectionHistory:
     _elements:
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7738794
+      _instanceID: -15197004
+      _type: 2
+    - _assetPath: Assets/Resources/Parameters/RunnerMoveMultiplier.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -12486190
+      _type: 2
+    - _assetPath: Assets/Resources/Parameters/WavePlasticSpawnChance.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -12482140
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7745764
+      _instanceID: -12486062
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7745954
+      _instanceID: -12494088
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7746004
+      _instanceID: -12494334
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7746098
+      _instanceID: 39090
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7746144
+      _instanceID: -6867502
       _type: 2
+    - _assetPath: Assets/Resources/Parameters/PlasticMaxValue.asset
+      _instanceID: 0
+      _type: 1
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38978
+      _instanceID: -13353414
       _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7746054
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7746186
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 39014
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7738226
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38988
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -7738582
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 39078
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38980
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2658
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -1794
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -1786
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -3302
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -3082
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -4512
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 39116
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -5760
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38972
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2884
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -3520
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2136612
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2660
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 39138
-      _type: 2
-    - _assetPath: Assets/Prefabs/UpgradeNode.prefab
+    - _assetPath: Assets/Resources/Parameters/CanSwimInSea 1.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Prefabs/Wave.prefab
       _instanceID: 0
       _type: 3
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2164292
+      _instanceID: -13784530
       _type: 2
+    - _assetPath: Assets/Resources/Parameters/CanSwimInSea.asset
+      _instanceID: 0
+      _type: 1
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2165072
+      _instanceID: -2167912
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
       _instanceID: -2165922
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2168980
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 39104
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -2167912
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
       _instanceID: -2171612
@@ -1422,13 +1368,67 @@ MonoBehaviour:
       _instanceID: -2169676
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -2168980
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -2165072
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
       _instanceID: -2164294
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6441590
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
       _instanceID: 39230
       _type: 2
+    - _assetPath: Assets/Resources/Parameters/MiningSpeed.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Resources/Parameters/CanWavesBringSand.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Resources/Parameters/WaveSpawnRate.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: 38950
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: 39018
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: 38956
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -9485320
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -15195284
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -9482058
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6901564
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6909396
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6880536
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6905860
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6907614
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -6904156
+      _type: 2
     _count: 40
-    _startIndex: 39
+    _startIndex: 0
   _prefabHistory:
     _elements:
     - _assetPath: Assets/Prefabs/UpgradeNode.prefab
@@ -1559,10 +1559,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 50
-    width: 393
+    width: 394
     height: 396
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -1589,9 +1589,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1054
+    x: 1053
     y: 129
-    width: 391
+    width: 392
     height: 370
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1606,10 +1606,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 179}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 40f2fffff6f3ffff9cf5ffff10f9fffff8faffff18980000a6980000e2980000
+      m_ExpandedIDs: e81f48ff72e175ffc2a096ff6e0397ff023597ff8ab59dffb655cbff40f2fffff6f3ffff9cf5fffff8faffff26980000e2980000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1626,7 +1626,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 12}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1651,7 +1651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 446
-    width: 393
+    width: 394
     height: 495
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -1681,9 +1681,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1054
+    x: 1053
     y: 525
-    width: 391
+    width: 392
     height: 469
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1750,24 +1750,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 3257}
-    m_SelectedIDs: 3e990000
+    scrollPos: {x: 0, y: 1088}
+    m_SelectedIDs: b41c18ff
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000076930000269a00003c9a0000529b0000109c0000129c00002c9c0000329c0000f49c0000f69c0000f89c0000fa9c0000fc9c0000fe9c0000009d0000029d0000049d0000069d0000089d00000a9d00000c9d00000e9d0000109d0000129d0000149d00000c9e0000
+    m_ExpandedIDs: ffffffff0000000076930000269a0000329a00003c9a0000529b0000109c0000129c00002c9c0000329c0000f49c0000f69c0000f89c0000fa9c0000fc9c0000fe9c0000009d0000029d0000049d0000069d0000089d00000a9d00000c9d00000e9d0000109d0000129d0000149d00000c9e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UpgradeNode
-      m_OriginalName: UpgradeNode
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 58750
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 14}
@@ -1779,8 +1779,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3e990000
-    m_LastClickedInstanceID: 39230
+    m_SelectedInstanceIDs: b41c18ff
+    m_LastClickedInstanceID: -15197004
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -1879,8 +1879,8 @@ MonoBehaviour:
     m_CachedPref: -188
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 39230
-  m_LastVerticalScrollValue: 342
+  m_LastInspectedObjectInstanceID: -15197004
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

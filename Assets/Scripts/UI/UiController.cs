@@ -11,6 +11,7 @@ namespace UI
         public GameObject resourcesPanel;
         public Transform resourceRowParent;
         public ResourceRow resourceRowPrefab;
+        public GameObject endgameScreen;
 
         public BuildingInfoPanel infoPanel;
 
@@ -47,6 +48,11 @@ namespace UI
                     _rows[kvp.Key].count.text = $"{kvp.Value:000000}";
                 }
             }
+        }
+
+        public void PressEndgameContinue()
+        {
+            endgameScreen.SetActive(false);
         }
     }
 }

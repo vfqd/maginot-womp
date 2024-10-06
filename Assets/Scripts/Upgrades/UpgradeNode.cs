@@ -52,8 +52,9 @@ namespace Upgrades
             nameText.text = $"{name} {hasBeenBought}/{canBeBoughtTimes}";
         }
 
-        private bool CanClick()
+        public bool CanClick()
         {
+            if (!gameObject.activeSelf) return false;
             if (hasBeenBought >= canBeBoughtTimes)
             {
                 border.color = Color.yellow;

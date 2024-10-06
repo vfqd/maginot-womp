@@ -81,6 +81,7 @@ namespace Womps
         public void SetDestination(Tile tile, Action callbackWhenArrived)
         {
             var target = tile;
+            if (tile == null) return;
             if (!tile.CanBeStoodOn())
             {
                 target = tile.GetNeighbourThatCanBeStoodOn();
@@ -119,7 +120,7 @@ namespace Womps
                     _arrivedCallback.Invoke();
                     _arrivedCallback = null;
                 }
-                _path.enabled = false;
+                // _path.enabled = false;
             }
             else if (currentTile && currentTile.Type == TileType.Ladder)
             {

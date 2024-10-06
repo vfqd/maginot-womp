@@ -50,5 +50,5 @@ MonoBehaviour:
     eventClassName: 
     animationEvent: 
   loop: 1
-  startAtRandomIndex: 0
+  startAtRandomIndex: 1
   startingFrame: 0

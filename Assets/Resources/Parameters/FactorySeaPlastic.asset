@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d43b6a426ec400da8c4fff18af8c516, type: 3}
-  m_Name: WavePlasticSpawnChance
+  m_Name: FactorySeaPlastic
   m_EditorClassIdentifier: 
-  _guid: 7d6c4b1839b334e4f84c1d1a8ce769e0
-  startingValue: 0
-  value: 0.1
+  _guid: 3a3bfa4f1e2b2ee4ab683349e770e0d6
+  startingValue: 0.05
+  value: 0.05

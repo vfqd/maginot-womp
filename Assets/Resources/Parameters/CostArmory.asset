@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d43b6a426ec400da8c4fff18af8c516, type: 3}
   m_Name: CostArmory
   m_EditorClassIdentifier: 
-  _guid: 7371213bd8e77fc40a9b2b2dc74f748f
-  startingValue: 20
-  value: 20
+  _guid: 9b78e3b9c87fa7b4ea728a39b6a9c779
+  startingValue: 90
+  value: 90

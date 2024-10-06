@@ -108,7 +108,7 @@ namespace Map
             }
             else if (Type == TileType.Sandcastle)
             {
-                if (this.DownNeighbour().Type is TileType.Ground)
+                if (this.DownNeighbour().Type is TileType.Ground or TileType.Ladder)
                 {
                     walkability = true;
                 }
@@ -176,15 +176,15 @@ namespace Map
         {
             if (Type == TileType.Ground && type == TileType.Air)
             {
-                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, Mathf.Max(1,58 - Y),true);
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position.PlusY(0.05f), Mathf.Max(1,60 - Y),true);
             }
             else if (Type == TileType.Sandcastle && type == TileType.Air)
             {
-                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, 1,true);
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position.PlusY(0.05f), 1,true);
             }
             else if (Type == TileType.Metal && type == TileType.Air)
             {
-                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Metal,transform.position, Mathf.Max(1,40 - Y),true);
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Metal,transform.position.PlusY(0.05f), Mathf.Max(1,50 - Y),true);
             }
             
             Type = type;

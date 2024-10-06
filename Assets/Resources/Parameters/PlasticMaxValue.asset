@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlasticMaxValue
   m_EditorClassIdentifier: 
   _guid: 56138310766290343b2995242abd7921
-  startingValue: 100
+  startingValue: 50
   value: 100

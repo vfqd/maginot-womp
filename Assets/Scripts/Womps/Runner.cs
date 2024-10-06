@@ -1,4 +1,5 @@
 ﻿using System;
+using DG.Tweening;
 using Framework;
 using Game;
 using Library.Grid;
@@ -21,7 +22,7 @@ namespace Womps
         
         private float _checkTimer = 1;
 
-        private float _stillTimer = 1;
+        private float _stillTimer = 0.1f;
         private Vector3 _prevPos;
         
         public enum RunState
@@ -61,14 +62,19 @@ namespace Womps
                     case RunState.GoingHome:
                         // Hack
                         var d = Vector3.Distance(transform.position, _prevPos);
-                        if (d < Mathf.Epsilon)
+                        if (d < 0.01f)
                         {
                             _stillTimer -= Time.deltaTime;
                             if (_stillTimer <= 0) runState = RunState.GoingToPile;
                         }
                         else
                         {
-                            _stillTimer = 1;
+                            _stillTimer = 0.1f;
+                        }
+
+                        if (targetPile)
+                        {
+                            targetPile.transform.localPosition = new Vector3(0, 0.8f);
                         }
                         break;
                 }
@@ -94,11 +100,14 @@ namespace Womps
         private void UpdatePathToTile()
         {
             _womp.SetDestination(targetPile.transform.position, null);
-            if (Vector3.Distance(targetPile.transform.position, transform.position) < 1.1f)
+            if (Vector3.Distance(targetPile.transform.position, transform.position) < 1.6f)
             {
                 runState = RunState.GoingHome;
+                targetPile.pickedUp = true;
+                targetPile.DOKill();
                 targetPile.transform.parent = transform;
                 targetPile.enabled = false;
+                targetPile.transform.SetLocalX(0);
                 targetPile.transform.SetLocalY(0.8f);
                 targetPile.GetComponent<SpriteRenderer>().sortingOrder = 2;
                 UpdatePathHome();

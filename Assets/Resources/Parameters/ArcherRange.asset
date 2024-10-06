@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ArcherRange
   m_EditorClassIdentifier: 
   _guid: cce748f72da4c5c48aa30abf9a7fe1d6
-  startingValue: 20
-  value: 20
+  startingValue: 15
+  value: 15

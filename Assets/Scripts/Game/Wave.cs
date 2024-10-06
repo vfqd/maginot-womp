@@ -17,14 +17,27 @@ namespace Game
         public FloatParameter plasticMaxValue;
         public FloatParameter waveMoveSpeed;
         public FloatParameter waveSize;
+        public FloatParameter canSpawnSand;
 
         public bool willDie;
 
         private void Start()
         {
-            if (Random.value < plasticSpawnChance)
+            var plasticSpawn = Mathf.Min(plasticSpawnChance, 0.5f);
+            if (Random.value < plasticSpawn)
             {
-                plastic = ResourcesController.Instance.CreateResourcePileAt(ResourceType.Plastic, plasticPos.position, 0,false);
+                var resourceType = Random.value < 0.33f ? ResourceType.Metal : ResourceType.Plastic;
+                plastic = ResourcesController.Instance.CreateResourcePileAt(resourceType, plasticPos.position, 0,false);
+            }
+            else
+            {
+                if (canSpawnSand > 0.5f)
+                {
+                    if (Random.value < 0.333f)
+                    {
+                        plastic = ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand, plasticPos.position, 0,false);
+                    }
+                }
             }
         }
 
