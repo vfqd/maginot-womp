@@ -272,7 +272,7 @@ TextureImporter:
         width: 56
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,6 +281,94 @@ TextureImporter:
       bones: []
       spriteID: 0cebd0c0bc744c94b9fea4ff13542c97
       internalID: 1095583413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomArcherTargetArea
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e910b31b7b5cc3498fe1307b5e2f23c
+      internalID: -1673774352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomArtilleryTargetArea
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93ff1f0e82265147b3a0132d9d57308
+      internalID: 1599913934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjShell
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc9d7888464fa244a092587e74c8df3
+      internalID: 579511361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjArrow
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 8
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a787a6d600cdf484ab4169aa569ab204
+      internalID: 1964441877
       vertices: []
       indices: 
       edges: []
@@ -302,7 +390,11 @@ TextureImporter:
       Bunks: -2018359802
       Lab: 1241461982
       Munitions: 1435789995
+      ProjArrow: 1964441877
+      ProjShell: 579511361
       Range: -601182704
+      RoomArcherTargetArea: -1673774352
+      RoomArtilleryTargetArea: 1599913934
       RoomTargetArea: 1095583413
       SurfShack: 2049961505
   mipmapLimitGroupName: 

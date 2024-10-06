@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HubWompsAllowed
   m_EditorClassIdentifier: 
   _guid: 066bc62b97ed3f94b8b0879ccaa86483
-  startingValue: 10
-  value: 10
+  startingValue: 4
+  value: 4

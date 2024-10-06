@@ -55,6 +55,43 @@ namespace Game
         {
             if (waves.Contains(wave)) waves.Remove(wave);
         }
+
+        public Wave GetNearestWaveInRange(Vector3 location, float range)
+        {
+            Wave closest = null;
+            float dist = Single.MaxValue;
+
+            foreach (var wave in waves)
+            {
+                if (wave.willDie) continue;
+                var d = Vector3.Distance(wave.transform.position, location);
+                if (d > range) continue;
+                if (d < dist)
+                {
+                    closest = wave;
+                    dist = d;
+                }
+            }
+            return closest;
+        }
         
+        public Wave GetFurthestWaveInRange(Vector3 location, float range)
+        {
+            Wave furthest = null;
+            float dist = Single.MinValue;
+
+            foreach (var wave in waves)
+            {
+                if (wave.willDie) continue;
+                var d = Vector3.Distance(wave.transform.position, location);
+                if (d > range) continue;
+                if (d > dist)
+                {
+                    furthest = wave;
+                    dist = d;
+                }
+            }
+            return furthest;
+        }
     }
 }

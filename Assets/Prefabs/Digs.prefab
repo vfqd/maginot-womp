@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7ec651e9134f2ab6b1fbe870c9ec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: {fileID: 11400000, guid: 7371213bd8e77fc40a9b2b2dc74f748f, type: 2}
   maxWompsAllowed: {fileID: 11400000, guid: a6306fd3a0391f64493bcc18ce2e3cc9, type: 2}
   wompPrefab: {fileID: 3263218691491051803, guid: 8e1240cb8e5853249ac2219e9d61252c, type: 3}
   buildingType: 2
@@ -108,6 +109,7 @@ MonoBehaviour:
   width: 7
   wompCount: 0
   buildingName: Digs
+  shouldShowPanel: 1
 --- !u!114 &471562676478917618
 MonoBehaviour:
   m_ObjectHideFlags: 0

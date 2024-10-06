@@ -18,6 +18,8 @@ namespace Game
         public FloatParameter waveMoveSpeed;
         public FloatParameter waveSize;
 
+        public bool willDie;
+
         private void Start()
         {
             if (Random.value < plasticSpawnChance)
@@ -47,7 +49,7 @@ namespace Game
         }
 
         [Button]
-        private void Die()
+        public void Die()
         {
             if (plastic)
             {

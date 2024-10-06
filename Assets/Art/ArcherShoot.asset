@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffbebe0403942b1a1c7b6640865cadb, type: 3}
+  m_Name: ArcherShoot
+  m_EditorClassIdentifier: 
+  frames:
+  - duration: 0.1
+    sprite: {fileID: -1124945641, guid: fceb407ad7aff0548bbbfa1bb65b4593, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: -772120018, guid: fceb407ad7aff0548bbbfa1bb65b4593, type: 3}
+    hatOffset: 0
+    hasEvent: 1
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: 852007156, guid: fceb407ad7aff0548bbbfa1bb65b4593, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: -1152766178, guid: fceb407ad7aff0548bbbfa1bb65b4593, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: -247903166, guid: fceb407ad7aff0548bbbfa1bb65b4593, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.1
+    sprite: {fileID: -1124945641, guid: fceb407ad7aff0548bbbfa1bb65b4593, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  loop: 0
+  startAtRandomIndex: 0
+  startingFrame: 0

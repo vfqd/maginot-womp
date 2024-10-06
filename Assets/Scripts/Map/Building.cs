@@ -8,6 +8,7 @@ namespace Map
 {
     public class Building : MonoBehaviour
     {
+        public FloatParameter cost;
         public FloatParameter maxWompsAllowed;
         public GameObject wompPrefab;
         public BuildingType buildingType;
@@ -15,6 +16,7 @@ namespace Map
         public int width;
         public int wompCount;
         public string buildingName;
+        public bool shouldShowPanel;
 
         private void Awake()
         {
@@ -53,6 +55,8 @@ namespace Map
         Bunks,
         Munitions,
         Lab,
-        Factory
+        Factory,
+        Artillery,
+        Archer
     }
 }

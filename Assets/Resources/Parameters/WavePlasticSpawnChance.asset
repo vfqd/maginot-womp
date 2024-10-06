@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _guid: 7d6c4b1839b334e4f84c1d1a8ce769e0
   startingValue: 0
-  value: 1
+  value: 0.5

@@ -9,9 +9,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 11400000, guid: ac977504408cd4d4aa9935846c2fba93, type: 2}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: wompPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1043747144100520581, guid: 9695c17d972a83a47861e2702887aa82, type: 3}
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: buildingName
       value: Lab
@@ -76,5 +80,44 @@ PrefabInstance:
     - {fileID: 471562676478917618, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4366499727345402265, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4762143337078170315}
+    - targetCorrespondingSourceObject: {fileID: 4366499727345402265, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4160870148797473122}
   m_SourcePrefab: {fileID: 100100000, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+--- !u!1 &163986054436822371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4366499727345402265, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+  m_PrefabInstance: {fileID: 4530186009967615226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4762143337078170315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163986054436822371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41210cc785b84509a28657f3ac077988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToMakeResource: {fileID: 11400000, guid: 81b353e5ed5f1af45bf1b2344171cee8, type: 2}
+  workRatePerWomp: {fileID: 11400000, guid: 6ea1919e4f7119b4899fdd0887e8124d, type: 2}
+  wompCount: 0
+  resourceType: 7
+--- !u!114 &4160870148797473122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163986054436822371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cefe76fe00d4720b54bfe6630778dd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

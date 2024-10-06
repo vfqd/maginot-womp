@@ -28,8 +28,8 @@ namespace Game
         public void AddTileToMiningList(Tile tile)
         {
             if (targetsToMine.Contains(tile)) return;
-            if (tile.DownNeighbour()?.Type == TileType.Room) return;
-            if (tile.UpNeighbour()?.Type == TileType.Room) return;
+            // if (tile.DownNeighbour()?.Type == TileType.Room) return;
+            // if (tile.UpNeighbour()?.Type == TileType.Room) return;
             if (tile.Get8NeighbourCountWithCondition((neighbour => neighbour.Type == TileType.Ocean))>0) return;
             
             targetsToMine.Add(tile);

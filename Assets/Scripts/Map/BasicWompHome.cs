@@ -15,9 +15,10 @@ namespace Map
 
         public void AddNewWomp(GameObject wompPrefab)
         {
-            var miner = Instantiate(wompPrefab, _building.GetRandomTileInBuilding().transform.position,
+            var womp = Instantiate(wompPrefab, _building.GetRandomTileInBuilding().transform.position,
                 Quaternion.identity);
-            miner.GetComponent<Womp>().home = _building;
+            if (womp.TryGetComponent<Womp>(out Womp w))
+                w.home = _building;
         }
     }
 }

@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 11400000, guid: 1faffc58df37c454683038a48a1d5e66, type: 2}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: wompPrefab
       value: 
       objectReference: {fileID: 0}

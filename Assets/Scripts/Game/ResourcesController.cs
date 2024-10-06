@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using DG.Tweening;
 using Library;
 using Library.Extensions;
@@ -59,22 +60,20 @@ namespace Game
 
         public ResourcePile GetHighestValueResourcePile(Vector3 location)
         {
-            ResourcePile mostValuable = null;
-            float value = Single.MinValue;
             var reserved = new HashSet<ResourcePile>(reservations.Values);
 
+            var possible = new List<ResourcePile>();
             foreach (var pile in piles)
             {
                 if (!pile.canBeCollected) continue;
                 if (reserved.Contains(pile)) continue;
-                // var d = Vector3.Distance(pile.transform.position, location);
-                if (pile.value > value)
-                {
-                    mostValuable = pile;
-                    value = pile.value;
-                }
+                possible.Add(pile);
             }
-            return mostValuable;
+
+            if (possible.Count == 0) return null;
+            return possible
+                .OrderByDescending(pile => (int)pile.type)
+                .ThenByDescending(pile => pile.value).First();
         }
 
         public void DepositResourcePile(Runner runner, ResourcePile pile)

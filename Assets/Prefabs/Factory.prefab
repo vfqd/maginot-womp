@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 11400000, guid: ef858ed3af5e07b47b06bc8c9980566e, type: 2}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: wompPrefab
       value: 
       objectReference: {fileID: 0}
@@ -24,6 +28,10 @@ PrefabInstance:
       propertyPath: maxWompsAllowed
       value: 
       objectReference: {fileID: 11400000, guid: 23a882ef178516e4fae7646051476b66, type: 2}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: shouldShowPanel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4085667274484242274, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

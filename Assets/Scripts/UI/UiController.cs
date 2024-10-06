@@ -31,9 +31,9 @@ namespace UI
         {
             foreach (var kvp in ResourcesController.Instance.resourceCounts)
             {
-                if (kvp.Value > 0)
+                if (!_rows.ContainsKey(kvp.Key))
                 {
-                    if (!_rows.ContainsKey(kvp.Key))
+                    if (kvp.Value > 0)
                     {
                         resourcesPanel.SetActive(true);
                         var newRow = Instantiate(resourceRowPrefab, resourceRowParent);
@@ -41,10 +41,10 @@ namespace UI
                         newRow.count.text = $"{kvp.Value:000000}";
                         _rows[kvp.Key] = newRow;
                     }
-                    else
-                    {
-                        _rows[kvp.Key].count.text = $"{kvp.Value:000000}";
-                    }
+                }
+                else
+                {
+                    _rows[kvp.Key].count.text = $"{kvp.Value:000000}";
                 }
             }
         }

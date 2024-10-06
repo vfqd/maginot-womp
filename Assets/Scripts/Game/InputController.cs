@@ -13,11 +13,14 @@ namespace Game
     {
         public MouseFollowInfoPanel mouseFollow;
         public SpriteRenderer roomArea;
+        public Sprite defaultRoom;
+        public Sprite archerRoom;
+        public Sprite artilleryRoom;
         public Tool currentTool;
 
         public Dictionary<Tool, Sprite> toolSprites;
 
-        public Button currentButton;
+        public ToolButton currentButton;
 
         public BuildingType currentRoom;
 
@@ -34,7 +37,7 @@ namespace Game
                 if (tileUnderCursor.Type == TileType.Room)
                 {
                     var building = MapController.Instance.GetBuildingAt(tileUnderCursor);
-                    if (building)
+                    if (building && building.shouldShowPanel && building.buildingType != BuildingType.Bunks)
                     {
                         UiController.Instance.infoPanel.Show(building);
 
@@ -63,9 +66,9 @@ namespace Game
             {
                 mouseFollow.Toggle(true);
                 mouseFollow.icon.sprite = toolSprites[Tool.Mine];
-                if (tileUnderCursor.Type is TileType.Ground or TileType.Sandcastle)
+                if (tileUnderCursor.Type is TileType.Ground or TileType.Sandcastle or TileType.Metal)
                 {
-                    if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                    if (Input.GetKey(KeyCode.LeftShift))
                     {
                         if (Input.GetMouseButton(0))
                         {
@@ -86,7 +89,7 @@ namespace Game
             {
                 mouseFollow.Toggle(true);
                 mouseFollow.icon.sprite = toolSprites[Tool.Ladder];
-                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
                     if (tileUnderCursor.Type == TileType.Ladder &&
                         Input.GetMouseButton(0))
@@ -96,9 +99,9 @@ namespace Game
                 }
                 else if (Input.GetMouseButton(0))
                 {
-                    if (tileUnderCursor.Type == TileType.Air &&
-                        GameController.Instance.CanAffordLadder(tileUnderCursor))
+                    if (tileUnderCursor.Type == TileType.Air)
                     {
+                        ResourcesController.Instance.ChangeResourceValue(ResourceType.Sand,-GameController.Instance.ladderCost);
                         tileUnderCursor.ChangeTileTo(TileType.Ladder);
                     }
                 }
@@ -115,9 +118,7 @@ namespace Game
                 mouseFollow.Toggle(true);
                 mouseFollow.icon.sprite = toolSprites[Tool.Build];
                 if (tileUnderCursor.Type == TileType.Air &&
-                    GameController.Instance.CanAffordCastle(tileUnderCursor) &&
-                    tileUnderCursor.CanBeStoodOn() &&
-                    tileUnderCursor.X > 49)
+                    tileUnderCursor.X > 46)
                 {
                     if (Input.GetMouseButton(0))
                     {
@@ -139,6 +140,8 @@ namespace Game
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
+                        var tool = currentButton;
+                        if (tool.HasCost) ResourcesController.Instance.ChangeResourceValue(tool.resourceCost, -tool.cost);
                         MapController.Instance.PlaceBuildingAt(currentRoom, tileUnderCursor.X, tileUnderCursor.Y);
                     }
                 }
@@ -151,6 +154,11 @@ namespace Game
                         tileUnderCursor.ChangeTileTo(TileType.Sandcastle);
                     }
                 }*/
+            }
+
+            if (currentButton && !currentButton.CheckCanAfford())
+            {
+                DeselectAll();
             }
             
             if (Input.GetMouseButtonDown(1))
@@ -169,10 +177,10 @@ namespace Game
         public void SelectTool(Button button)
         {
             DeselectAll();
-            currentButton = button;
+            currentButton = button.GetComponent<ToolButton>();
             currentButton.GetComponent<Image>().color = Color.red;
-            var info = button.GetComponent<ToolButton>();
-            SelectTool(info.tool,info.buildingType);
+            InfoArea.Instance.SHowText(currentButton.tooltip);
+            SelectTool(currentButton.tool,currentButton.buildingType);
         }
         public void SelectTool(Tool tool, BuildingType buildingType)
         {
@@ -187,21 +195,34 @@ namespace Game
                 currentButton.GetComponent<Image>().color = Color.white;
                 currentButton = null;
             }
+            InfoArea.Instance.HideText();
             SelectTool(Tool.None,BuildingType.None);
         }
 
         private bool IsAreaValidForRoom(Tile tile)
         {
-            if (tile.Y >= 63) return false;
-                
-            for (int i = -3; i <= 3; i++)
+            bool aboveGround = currentRoom is BuildingType.Archer or BuildingType.Artillery;
+            if (!aboveGround && tile.Y >= 62) return false;
+            if (aboveGround && tile.Y < 64) return false;
+
+            roomArea.sprite = currentRoom switch
             {
-                for (int j = -1; j <= 1; j++)
+                BuildingType.Archer => archerRoom,
+                BuildingType.Artillery => artilleryRoom,
+                _ => defaultRoom
+            };
+
+            var width = MapController.Instance.buildingLookup[currentRoom].width;
+            var half = width / 2;
+            var height = currentRoom == BuildingType.Archer ? 0 : 1;
+            for (int i = -half; i <= half; i++)
+            {
+                for (int j = -height; j <= height; j++)
                 {
                     var t = MapController.Instance.Grid.GetTile(tile.X + i, tile.Y + j);
                     if (t == null) return false;
                     if (t.Type != TileType.Air) return false;
-                    if (j == -1 && !t.CanBeStoodOn()) return false;
+                    if (j == -height && !t.CanBeStoodOn()) return false;
                 }
             }
             

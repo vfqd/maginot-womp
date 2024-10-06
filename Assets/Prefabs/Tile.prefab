@@ -151,6 +151,10 @@ MonoBehaviour:
   - {fileID: -989811722, guid: 2a7d0d34c46d30349b3d6a9a90a24415, type: 3}
   sandcastleSprites:
   - {fileID: -390383663, guid: 2a7d0d34c46d30349b3d6a9a90a24415, type: 3}
+  metalSprites:
+  - {fileID: 1019742283, guid: 2a7d0d34c46d30349b3d6a9a90a24415, type: 3}
+  - {fileID: 1078140113, guid: 2a7d0d34c46d30349b3d6a9a90a24415, type: 3}
+  - {fileID: 1130439494, guid: 2a7d0d34c46d30349b3d6a9a90a24415, type: 3}
   ladderSprite: {fileID: 1062419115, guid: 2a7d0d34c46d30349b3d6a9a90a24415, type: 3}
   upEdge: {fileID: 3699601790755046548}
   downEdge: {fileID: 7783303463714604207}

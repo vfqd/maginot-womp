@@ -42,9 +42,9 @@ namespace Map
             {
                 tile.SetSprite();
                 tile.UpdatePathing();
-                if (tile.Type == TileType.Ground)
+                if (tile.Type == TileType.Ground || tile.Type == TileType.Metal)
                 {
-                    var health = 1+Mathf.Pow(Math.Max(1,53-tile.Y),1.2f);
+                    var health = 1+Mathf.Pow(Math.Max(1,53-tile.Y),1.1f);
                     tile.tileHealth.SetMaxHp(health);
                 }
             }
@@ -54,7 +54,21 @@ namespace Map
         {
             var prefab = buildingLookup[building];
             var b = Instantiate(prefab, new Vector3(x, y), Quaternion.identity);
-            b.center = Grid.GetTile(x, y);
+            b.center = Grid.GetTile(x, y); 
+            
+            var width = prefab.width;
+            var half = width / 2;
+            var height = building == BuildingType.Archer ? 0 : 1;
+            for (int i = -half; i <= half; i++)
+            {
+                for (int j = -height; j <= height; j++)
+                {
+                    var t = Grid.GetTile(x + i, y + j);
+                    if (t == null) continue;
+                    t.Type = TileType.Room;
+                }
+            }
+            
             buildings.Add(b);
             return b;
         }

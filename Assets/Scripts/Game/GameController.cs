@@ -10,8 +10,10 @@ namespace Game
 {
     public class GameController : MonoSingleton<GameController>
     {
+        public FloatParameter ladderCost;
+        public FloatParameter castleCost;
+        
         public float wompsAvailable;
-        public int castleCost = 1;
         
         protected override void Awake()
         {
@@ -40,16 +42,6 @@ namespace Game
                 MapController.Instance.buildingLookup[BuildingType.Bunks].maxWompsAllowed;
             wompsAvailable = wompsAllowed - currentWomps;
             ResourcesController.Instance.SetResourceValue(ResourceType.Womps,wompsAvailable);
-        }
-
-        public bool CanAffordLadder(Tile tile)
-        {
-            return true;
-        }
-        
-        public bool CanAffordCastle(Tile tile)
-        {
-            return ResourcesController.Instance.resourceCounts[ResourceType.Sand] >= castleCost;
         }
 
         public bool CanAffordWomps()

@@ -4,6 +4,7 @@ using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Library.UiAnimation
 {
@@ -14,9 +15,12 @@ namespace Library.UiAnimation
         [OdinSerialize] private AnimationEffect onMouseEnterEffect;
         [OdinSerialize] private AnimationEffect onHoverEffect;
         [OdinSerialize] private AnimationEffect onClickEffect;
+        [OdinSerialize] private AnimationEffect errorEffect;
         
         [OdinSerialize] private AnimationEffect showEffect;
         [OdinSerialize] private AnimationEffect hideEffect;
+
+        public Button button;
 
         public bool IsShown => _shown;
         private bool _isHovered = false;
@@ -25,6 +29,11 @@ namespace Library.UiAnimation
         public void OnPointerEnter(PointerEventData eventData)
         {
             _isHovered = true;
+            if (button && button.interactable == false)
+            {
+                return;
+            }
+            
             if (onMouseEnterEffect != null)
             {
                 targetTransform.DOKill(true);
@@ -35,6 +44,16 @@ namespace Library.UiAnimation
         public void OnPointerClick(PointerEventData eventData)
         {
             _isHovered = false;
+            if (button && button.interactable == false)
+            {
+                if (errorEffect != null)
+                {
+                    targetTransform.DOKill(true);
+                    errorEffect?.Play(targetTransform);
+                }
+                return;
+            }
+            
             if (onClickEffect != null)
             {
                 targetTransform.DOKill(true);

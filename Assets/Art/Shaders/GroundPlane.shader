@@ -141,7 +141,7 @@ Node;AmplifyShaderEditor.TexelSizeNode;9;-911.683,221.9355;Inherit;False;-1;1;0;
 Node;AmplifyShaderEditor.SimpleDivideOpNode;6;-566.4122,20.35761;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;10;-565.683,119.9355;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.DynamicAppendNode;12;-427.683,43.93555;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.RangedFloatNode;5;-595.8109,328.5578;Inherit;False;Property;_PixelsPerUnit;Pixels Per Unit;1;0;Create;True;0;0;0;False;0;False;0;16;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;5;-595.8109,328.5578;Inherit;False;Property;_PixelsPerUnit;Pixels Per Unit;1;0;Create;True;0;0;0;False;0;False;0;1;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;13;-272.683,40.93555;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.Vector2Node;24;-259.7935,175.2269;Inherit;False;InstancedProperty;_Offset;Offset;2;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.SimpleAddOpNode;25;-108.6138,88.08118;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
@@ -166,4 +166,4 @@ WireConnection;51;0;2;0
 WireConnection;51;1;22;0
 WireConnection;0;0;51;0
 ASEEND*/
-//CHKSM=F89F7548D3BC43E9A51BB72FAB968162205E67E6
+//CHKSM=EB02383900E198DFF31A4EE1EB511A16812788B2

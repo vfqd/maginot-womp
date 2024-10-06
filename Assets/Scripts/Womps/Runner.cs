@@ -20,6 +20,9 @@ namespace Womps
         public RunState runState;
         
         private float _checkTimer = 1;
+
+        private float _stillTimer = 1;
+        private Vector3 _prevPos;
         
         public enum RunState
         {
@@ -55,10 +58,24 @@ namespace Womps
                     case RunState.GoingToPile:
                         UpdatePathToTile();
                         break;
+                    case RunState.GoingHome:
+                        // Hack
+                        var d = Vector3.Distance(transform.position, _prevPos);
+                        if (d < Mathf.Epsilon)
+                        {
+                            _stillTimer -= Time.deltaTime;
+                            if (_stillTimer <= 0) runState = RunState.GoingToPile;
+                        }
+                        else
+                        {
+                            _stillTimer = 1;
+                        }
+                        break;
                 }
             }
 
             _womp.spriteAnimator.hat.sprite = _womp.currentTile.Type == TileType.Ocean ? diveMask : headband;
+            _prevPos = transform.position;
         }
 
         private void TryGetNewTarget()

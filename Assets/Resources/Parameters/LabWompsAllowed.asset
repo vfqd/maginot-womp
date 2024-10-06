@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d43b6a426ec400da8c4fff18af8c516, type: 3}
   m_Name: LabWompsAllowed
   m_EditorClassIdentifier: 
-  _guid: a6306fd3a0391f64493bcc18ce2e3cc9
-  startingValue: 3
-  value: 3
+  _guid: e5099039f4e5edc4dace410712bf0cd5
+  startingValue: 5
+  value: 5
