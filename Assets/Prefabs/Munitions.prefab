@@ -13,9 +13,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: buildingName
+      value: Armory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: buildingType
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: maxWompsAllowed
+      value: 
+      objectReference: {fileID: 11400000, guid: 80e257b6c805b7d469e408e390237ead, type: 2}
     - target: {fileID: 4085667274484242274, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

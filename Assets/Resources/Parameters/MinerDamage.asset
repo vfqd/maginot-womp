@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d43b6a426ec400da8c4fff18af8c516, type: 3}
   m_Name: MinerDamage
   m_EditorClassIdentifier: 
-  _guid: cf4539a85db29934a875d018c152a108
-  value: 1
+  _guid: bbae39913e6f66c47b03c15ad11ce7a0
+  startingValue: 1
+  value: 3

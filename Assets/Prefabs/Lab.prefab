@@ -13,9 +13,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: buildingName
+      value: Lab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: buildingType
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: maxWompsAllowed
+      value: 
+      objectReference: {fileID: 11400000, guid: e5099039f4e5edc4dace410712bf0cd5, type: 2}
     - target: {fileID: 4085667274484242274, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

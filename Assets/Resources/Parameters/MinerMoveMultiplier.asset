@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: MinerMoveMultiplier
   m_EditorClassIdentifier: 
   _guid: cf4539a85db29934a875d018c152a108
+  startingValue: 1
   value: 1

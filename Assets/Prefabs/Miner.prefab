@@ -238,7 +238,7 @@ MonoBehaviour:
   miningTile: {fileID: 0}
   miningAnim: {fileID: 11400000, guid: ee22a12f2dc609144ad095c395cd9097, type: 2}
   miningDamage: {fileID: 11400000, guid: bbae39913e6f66c47b03c15ad11ce7a0, type: 2}
-  miningReloadTime: {fileID: 11400000, guid: 30600664953d32e45b3a3d0797644fef, type: 2}
+  miningSpeed: {fileID: 11400000, guid: 30600664953d32e45b3a3d0797644fef, type: 2}
 --- !u!1 &8646457437222173223
 GameObject:
   m_ObjectHideFlags: 0

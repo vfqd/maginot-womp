@@ -85,10 +85,14 @@ namespace Map
             col.SetActive(Type is TileType.Ground or TileType.Sandcastle);
 
             var walkability = false;
+            var canSwim = MapController.Instance.canSwimInSea > 0.5f;
             if (Type == TileType.Ladder) walkability = true;
+            else if (canSwim && Type == TileType.Ocean) walkability = true;
             else if (Type is TileType.Air or TileType.Room)
             {
                 if (this.DownNeighbour()?.Type is TileType.Ground or TileType.Sandcastle or TileType.Ladder)
+                    walkability = true;
+                else if (canSwim && this.DownNeighbour()?.Type is TileType.Ocean && this.DownRightNeighbour().Type is TileType.Ground)
                     walkability = true;
                 else if (this.DownNeighbour()?.Type == TileType.Air)
                 {
@@ -167,11 +171,11 @@ namespace Map
         {
             if (Type == TileType.Ground && type == TileType.Air)
             {
-                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, Mathf.Min(1,58 - Y));
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, Mathf.Max(1,58 - Y),true);
             }
             else if (Type == TileType.Sandcastle && type == TileType.Air)
             {
-                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, 1);
+                ResourcesController.Instance.CreateResourcePileAt(ResourceType.Sand,transform.position, 1,true);
             }
             
             Type = type;
@@ -215,7 +219,7 @@ namespace Map
         
         public static bool IsNotSolid(this TileType type)
         {
-            return type is TileType.Air or TileType.Ladder or TileType.Room;
+            return type is TileType.Air or TileType.Ladder or TileType.Room or TileType.Ocean;
         }
     }
 

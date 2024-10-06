@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Library;
 using Library.Grid;
 using Map;
@@ -8,11 +9,13 @@ using UnityEngine.UI;
 
 namespace Game
 {
-    public class InputController : MonoSingleton<InputController>
+    public class InputController : SerializedMonoSingleton<InputController>
     {
         public MouseFollowInfoPanel mouseFollow;
         public SpriteRenderer roomArea;
         public Tool currentTool;
+
+        public Dictionary<Tool, Sprite> toolSprites;
 
         public Button currentButton;
 
@@ -23,18 +26,43 @@ namespace Game
             var worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             var snappedPos = new Vector3(Mathf.RoundToInt(worldPos.x), Mathf.RoundToInt(worldPos.y));
 
-            if (currentTool == Tool.None)
-            {
-                mouseFollow.Toggle(false);
-                return;
-            }
-
             var tileUnderCursor = MapController.Instance.Grid.GetTile(snappedPos.x, snappedPos.y);
             if (tileUnderCursor == null) return;
             
+            if (currentTool == Tool.None)
+            {
+                if (tileUnderCursor.Type == TileType.Room)
+                {
+                    var building = MapController.Instance.GetBuildingAt(tileUnderCursor);
+                    if (building)
+                    {
+                        UiController.Instance.infoPanel.Show(building);
+
+                        if (Input.GetMouseButtonDown(0) && GameController.Instance.CanAffordWomps())
+                        {
+                            building.AddWomp();
+                            UiController.Instance.infoPanel.UpdateCount(building);
+                        }
+                    }
+                    else
+                    {
+                        UiController.Instance.infoPanel.Hide();
+                    }
+                }
+                else
+                {
+                    UiController.Instance.infoPanel.Hide();
+                }
+
+                mouseFollow.Toggle(false);
+                return;
+            }
+            
+            UiController.Instance.infoPanel.Hide();
             if (currentTool == Tool.Mine)
             {
-                // mouseFollow.Toggle(true);
+                mouseFollow.Toggle(true);
+                mouseFollow.icon.sprite = toolSprites[Tool.Mine];
                 if (tileUnderCursor.Type is TileType.Ground or TileType.Sandcastle)
                 {
                     if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
@@ -56,6 +84,8 @@ namespace Game
             }
             else if (currentTool == Tool.Ladder)
             {
+                mouseFollow.Toggle(true);
+                mouseFollow.icon.sprite = toolSprites[Tool.Ladder];
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
                     if (tileUnderCursor.Type == TileType.Ladder &&
@@ -82,18 +112,24 @@ namespace Game
             }
             else if (currentTool == Tool.Build)
             {
+                mouseFollow.Toggle(true);
+                mouseFollow.icon.sprite = toolSprites[Tool.Build];
                 if (tileUnderCursor.Type == TileType.Air &&
                     GameController.Instance.CanAffordCastle(tileUnderCursor) &&
-                    tileUnderCursor.CanBeStoodOn())
+                    tileUnderCursor.CanBeStoodOn() &&
+                    tileUnderCursor.X > 49)
                 {
                     if (Input.GetMouseButton(0))
                     {
+                        ResourcesController.Instance.ChangeResourceValue(ResourceType.Sand,-GameController.Instance.castleCost);
                         tileUnderCursor.ChangeTileTo(TileType.Sandcastle);
                     }
                 }
             }
             else if (currentTool == Tool.PlaceRoom)
             {
+                mouseFollow.Toggle(false);
+                
                 roomArea.gameObject.SetActive(true);
                 roomArea.transform.position = snappedPos;
                 var valid = IsAreaValidForRoom(tileUnderCursor);
@@ -134,7 +170,7 @@ namespace Game
         {
             DeselectAll();
             currentButton = button;
-            currentButton.GetComponent<Image>().color = Color.yellow;
+            currentButton.GetComponent<Image>().color = Color.red;
             var info = button.GetComponent<ToolButton>();
             SelectTool(info.tool,info.buildingType);
         }

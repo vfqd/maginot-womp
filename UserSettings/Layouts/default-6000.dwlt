@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 341}
   m_MaxSize: {x: 10000, y: 10000}
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 1
-  controlID: 451
+  controlID: 144
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 452
+  controlID: 145
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 150}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 515
+  controlID: 88
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 0
+  m_Stats: 1
   m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
@@ -1168,9 +1168,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 62.482056, y: 64.03468, z: 0.03973891}
+    m_Target: {x: 19.191374, y: 50.856827, z: -0.007951108}
     speed: 2
-    m_Value: {x: 62.482056, y: 64.03468, z: 0.03973891}
+    m_Value: {x: 19.191374, y: 50.856827, z: -0.007951108}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1220,9 +1220,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.0261106
+    m_Target: 1.5092528
     speed: 2
-    m_Value: 6.0261106
+    m_Value: 1.5092528
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1592,127 +1592,127 @@ MonoBehaviour:
   _selectionHistory:
     _elements:
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -24989858
+      _instanceID: -14555686
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -24855614
+      _instanceID: -14555864
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -24855604
+      _instanceID: -14555746
       _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -14555700
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -14555162
+      _type: 2
+    - _assetPath: Assets/Prefabs/Runner.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Resources/Parameters/WavePlasticSpawnChance 1.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Prefabs/UiResourceRow.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Wave.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: 
+      _instanceID: 56738
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -10713314
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -10713336
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -10713358
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -10713380
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -10713482
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11139902
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11139392
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11139930
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11566352
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11566366
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11992386
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11992622
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -11992600
+      _type: 2
+    - _assetPath: Assets/Resources/Parameters/WaveSpeed 1.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Resources/Parameters/MiningSpeed.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Resources/Parameters/PlasticMaxValue.asset
+      _instanceID: 0
+      _type: 1
     - _assetPath: Assets/Resources/Parameters/RunnerMoveMultiplier.asset
       _instanceID: 0
       _type: 1
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -27121228
-      _type: 2
-    - _assetPath: Assets/Art/WompMining.png
+    - _assetPath: Assets/Resources/Parameters/WavePlasticSpawnChance.asset
       _instanceID: 0
       _type: 1
-    - _assetPath: Assets/Art/WompMining.asset
+    - _assetPath: Assets/Resources/Parameters/WaveSize.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Resources/Parameters/WaveSpawnRate.asset
+      _instanceID: 0
+      _type: 1
+    - _assetPath: Assets/Resources/Parameters/WaveSpeed.asset
       _instanceID: 0
       _type: 1
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -11750286
+      _instanceID: 38788
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -11563040
+      _instanceID: -12423938
       _type: 2
-    - _assetPath: Assets/Prefabs/Tile.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -9621642
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38654
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -15485798
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -418830
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38668
-      _type: 2
-    - _assetPath: Assets/Prefabs/Womp.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: 38684
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -18570680
-      _type: 2
-    - _assetPath: Assets/Prefabs/Digs.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -20109426
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -20283456
-      _type: 2
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -20118258
-      _type: 2
-    - _assetPath: 
+    - _assetPath: Assets/Resources/Parameters/MinerDamage.asset
       _instanceID: 0
       _type: 1
     - _assetPath: Assets/Resources/Parameters/MinerMoveMultiplier.asset
       _instanceID: 0
       _type: 1
-    - _assetPath: Assets/Resources/Parameters/MinerMoveMultiplier 1.asset
-      _instanceID: 0
-      _type: 1
-    - _assetPath: Assets/Resources/Parameters/MinerDamage 1.asset
-      _instanceID: 0
-      _type: 1
-    - _assetPath: Assets/Prefabs/Miner.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Prefabs/Miner 1.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: 
-      _instanceID: 56786
-      _type: 2
-    - _assetPath: Assets/Art/Resources.png
+    - _assetPath: Assets/Resources/Parameters/CanSwimInSea.asset
       _instanceID: 0
       _type: 1
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -20726124
-      _type: 2
-    - _assetPath: Assets/Prefabs/SandPile.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Prefabs/MetalPile.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Prefabs/MetalPile 1.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Prefabs/PlasticPile.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -828222
-      _type: 2
-    - _assetPath: Assets/Prefabs/Runner.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Prefabs/Hub.prefab
-      _instanceID: 0
-      _type: 3
-    - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -22860088
+      _instanceID: 38940
       _type: 2
     - _assetPath: Assets/Scenes/Main.unity
-      _instanceID: -20731040
+      _instanceID: -14129100
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: -1286946
+      _type: 2
+    - _assetPath: Assets/Scenes/Main.unity
+      _instanceID: 38910
       _type: 2
     _count: 40
-    _startIndex: 4
+    _startIndex: 5
   _prefabHistory:
     _elements:
     - _assetPath: Assets/Prefabs/MineTarget.prefab
@@ -1721,9 +1721,6 @@ MonoBehaviour:
     - _assetPath: Assets/Prefabs/Tile.prefab
       _instanceID: 0
       _type: 3
-    - _assetPath: Assets/Prefabs/Digs.prefab
-      _instanceID: 0
-      _type: 3
     - _assetPath: Assets/Prefabs/MetalPile.prefab
       _instanceID: 0
       _type: 3
@@ -1733,7 +1730,43 @@ MonoBehaviour:
     - _assetPath: Assets/Prefabs/Runner.prefab
       _instanceID: 0
       _type: 3
+    - _assetPath: Assets/Prefabs/UiResourceRow.prefab
+      _instanceID: 0
+      _type: 3
     - _assetPath: Assets/Prefabs/Hub.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Digs.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Bunks 1.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Bunks.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Range.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Munitions.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Lab.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Lab 1.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Surf.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/ToolButton.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/RoomButton.prefab
+      _instanceID: 0
+      _type: 3
+    - _assetPath: Assets/Prefabs/Wave.prefab
       _instanceID: 0
       _type: 3
     - _assetPath: 
@@ -1742,41 +1775,8 @@ MonoBehaviour:
     - _assetPath: 
       _instanceID: 0
       _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    - _assetPath: 
-      _instanceID: 0
-      _type: 0
-    _count: 7
-    _startIndex: 6
+    _count: 18
+    _startIndex: 17
   _sceneHistory:
     _elements:
     - _assetPath: Assets/Scenes/Main.unity
@@ -1867,7 +1867,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b82b62feccbb84fec25cf3ffb0a3f9ff32acf9fff8faffff1c970000
+      m_ExpandedIDs: de5cecff5c77f9fff8faffff98970000ae970000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1939,7 +1939,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Parameters
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1957,7 +1957,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 00ca9a3b
     m_LastClickedID: 1000000000
-    m_ExpandedIDs: 0000000000930000d0980000dc980000de9800002499000026990000289900002a9900002c9900002e99000030990000329900003499000036990000389900003a9900003c9900003e99000040990000
+    m_ExpandedIDs: 0000000020930000c8980000189a0000869a0000889a00008a9a00008c9a00008e9a0000909a0000929a0000949a0000969a0000989a00009a9a00009c9a00009e9a0000a09a0000a29a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1983,10 +1983,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 780}
+    scrollPos: {x: 0, y: 657}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000930000d0980000dc980000de9800002499000026990000289900002a9900002c9900002e99000030990000329900003499000036990000389900003a9900003c9900003e99000040990000
+    m_ExpandedIDs: 0000000020930000c8980000189a0000869a0000889a00008a9a00008c9a00008e9a0000909a0000929a0000949a0000969a0000989a00009a9a00009c9a00009e9a0000a09a0000a29a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

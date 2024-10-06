@@ -13,9 +13,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: buildingName
+      value: Range
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: buildingType
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: maxWompsAllowed
+      value: 
+      objectReference: {fileID: 11400000, guid: 07aef6d22cfd88d4f81604a687eb8951, type: 2}
     - target: {fileID: 4085667274484242274, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

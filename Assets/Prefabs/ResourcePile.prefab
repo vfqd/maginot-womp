@@ -48,6 +48,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 9138617991989658371}
   type: 0
   value: 0
+  canBeCollected: 1
 --- !u!212 &9138617991989658371
 SpriteRenderer:
   m_ObjectHideFlags: 0

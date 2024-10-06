@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Library.Extensions;
 using UnityEngine;
 using Womps;
@@ -7,11 +8,19 @@ namespace Map
 {
     public class Building : MonoBehaviour
     {
+        public FloatParameter maxWompsAllowed;
         public GameObject wompPrefab;
         public BuildingType buildingType;
         public Tile center;
         public int width;
-        
+        public int wompCount;
+        public string buildingName;
+
+        private void Awake()
+        {
+            wompCount = 0;
+        }
+
         public Tile GetRandomTileInBuilding()
         {
             List<Tile> options = new List<Tile>();
@@ -26,6 +35,8 @@ namespace Map
 
         public void AddWomp()
         {
+            if (wompCount >= maxWompsAllowed) return;
+            wompCount++;
             foreach (var wompSpawner in GetComponents<IWompSpawner>())
             {
                 wompSpawner.AddNewWomp(wompPrefab);
@@ -42,6 +53,6 @@ namespace Map
         Bunks,
         Munitions,
         Lab,
-        Surf
+        Factory
     }
 }

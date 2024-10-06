@@ -4,6 +4,7 @@ using Game;
 using Library;
 using Library.Extensions;
 using Library.Grid;
+using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
 
@@ -14,7 +15,10 @@ namespace Map
         [SerializeField] private Tile tilePrefab;
         [SerializeField] private Texture2D mapStartState;
         [SerializeField] private List<TypeColorPair> typeColors;
-        [OdinSerialize] private Dictionary<BuildingType, Building> buildingLookup;
+        [OdinSerialize] public Dictionary<BuildingType, Building> buildingLookup;
+
+        public List<Building> buildings;
+        public FloatParameter canSwimInSea;
         
         public Grid<Tile> Grid => _grid;
         private Grid<Tile> _grid;
@@ -32,6 +36,7 @@ namespace Map
                     _grid[x, y].Type = GetTypeForColor(mapStartState.GetPixel(x, y));
                 }
             }
+            buildings = new List<Building>();
 
             foreach (var tile in _grid)
             {
@@ -39,19 +44,10 @@ namespace Map
                 tile.UpdatePathing();
                 if (tile.Type == TileType.Ground)
                 {
-                    var health = 1+Mathf.Pow(Math.Min(1,53-tile.Y),1.2f);
+                    var health = 1+Mathf.Pow(Math.Max(1,53-tile.Y),1.2f);
                     tile.tileHealth.SetMaxHp(health);
                 }
             }
-        }
-
-        private void Start()
-        {
-            var hub = PlaceBuildingAt(BuildingType.Hub,67,56);
-            ResourcesController.Instance.hub = hub;
-            hub.AddWomp();
-            var digs = PlaceBuildingAt(BuildingType.Diggers,57,56);
-            digs.AddWomp();
         }
 
         public Building PlaceBuildingAt(BuildingType building, int x, int y)
@@ -59,7 +55,22 @@ namespace Map
             var prefab = buildingLookup[building];
             var b = Instantiate(prefab, new Vector3(x, y), Quaternion.identity);
             b.center = Grid.GetTile(x, y);
+            buildings.Add(b);
             return b;
+        }
+        
+        [Button]
+        public void EnableSwimming()
+        {
+            canSwimInSea.AddValue(1);
+            foreach (var tile in _grid)
+            {
+                if (tile.Type == TileType.Ocean)
+                {
+                    tile.UpdatePathing();
+                    if (tile.UpNeighbour()?.Type == TileType.Air) tile.UpNeighbour().UpdatePathing();
+                }
+            }
         }
 
         public TileType GetTypeForColor(Color c)
@@ -85,6 +96,26 @@ namespace Map
         {
             public TileType TileType;
             public Color Color;
+        }
+
+        public Building GetBuildingAt(Tile tile)
+        {
+            var tX = tile.X;
+            var tY = tile.Y;
+            foreach (var building in buildings)
+            {
+                var halfW = building.width / 2;
+                var bL = building.center.X - halfW;
+                var bR = building.center.X + halfW;
+                var bT = building.center.Y + 1;
+                var bB = building.center.Y - 1;
+
+                if (tX >= bL && tX <= bR && tY >= bB && tY <= bT)
+                {
+                    return building;
+                }
+            }
+            return null;
         }
     }
 }

@@ -235,6 +235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPile: {fileID: 0}
+  headband: {fileID: 1551921829, guid: 28bd8b2e79f1d8645ab357b7fe9063dd, type: 3}
+  diveMask: {fileID: -640859728, guid: 28bd8b2e79f1d8645ab357b7fe9063dd, type: 3}
   runState: 0
 --- !u!1 &8646457437222173223
 GameObject:

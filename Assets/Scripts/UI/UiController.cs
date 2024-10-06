@@ -12,6 +12,8 @@ namespace UI
         public Transform resourceRowParent;
         public ResourceRow resourceRowPrefab;
 
+        public BuildingInfoPanel infoPanel;
+
         private Dictionary<ResourceType, ResourceRow> _rows;
 
         protected override void Awake()

@@ -14,6 +14,9 @@ namespace Womps
         private Womp _womp;
         public ResourcePile targetPile;
 
+        public Sprite headband;
+        public Sprite diveMask;
+
         public RunState runState;
         
         private float _checkTimer = 1;
@@ -53,13 +56,14 @@ namespace Womps
                         UpdatePathToTile();
                         break;
                 }
-                
             }
+
+            _womp.spriteAnimator.hat.sprite = _womp.currentTile.Type == TileType.Ocean ? diveMask : headband;
         }
 
         private void TryGetNewTarget()
         {
-            targetPile = ResourcesController.Instance.GetNearestResourcePileTo(transform.position);
+            targetPile = ResourcesController.Instance.GetHighestValueResourcePile(transform.position);
             if (targetPile == null)
             {
                 _womp.SetDestination(_womp.home.GetRandomTileInBuilding().transform.position,null);
@@ -73,7 +77,7 @@ namespace Womps
         private void UpdatePathToTile()
         {
             _womp.SetDestination(targetPile.transform.position, null);
-            if (Vector3.Distance(targetPile.transform.position, transform.position) < 0.01f)
+            if (Vector3.Distance(targetPile.transform.position, transform.position) < 1.1f)
             {
                 runState = RunState.GoingHome;
                 targetPile.transform.parent = transform;

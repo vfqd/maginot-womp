@@ -94,15 +94,33 @@ public partial class FloatParameter
 {
 
 	public static FloatParameter[] AllFloatParameters { get { if (__allFloatParameters == null) __allFloatParameters = GetValues<FloatParameter>(); return __allFloatParameters; } }
+	public static FloatParameter BunksWompsAllowed { get { if (__bunksWompsAllowed == null) __bunksWompsAllowed = GetValue<FloatParameter>("BunksWompsAllowed"); return __bunksWompsAllowed; } }
+	public static FloatParameter CanSwimInSea { get { if (__canSwimInSea == null) __canSwimInSea = GetValue<FloatParameter>("CanSwimInSea"); return __canSwimInSea; } }
+	public static FloatParameter DigsWompsAllowed { get { if (__digsWompsAllowed == null) __digsWompsAllowed = GetValue<FloatParameter>("DigsWompsAllowed"); return __digsWompsAllowed; } }
+	public static FloatParameter HubWompsAllowed { get { if (__hubWompsAllowed == null) __hubWompsAllowed = GetValue<FloatParameter>("HubWompsAllowed"); return __hubWompsAllowed; } }
 	public static FloatParameter MinerDamage { get { if (__minerDamage == null) __minerDamage = GetValue<FloatParameter>("MinerDamage"); return __minerDamage; } }
 	public static FloatParameter MinerMoveMultiplier { get { if (__minerMoveMultiplier == null) __minerMoveMultiplier = GetValue<FloatParameter>("MinerMoveMultiplier"); return __minerMoveMultiplier; } }
-	public static FloatParameter MinerReloadTime { get { if (__minerReloadTime == null) __minerReloadTime = GetValue<FloatParameter>("MinerReloadTime"); return __minerReloadTime; } }
+	public static FloatParameter MiningSpeed { get { if (__miningSpeed == null) __miningSpeed = GetValue<FloatParameter>("MiningSpeed"); return __miningSpeed; } }
+	public static FloatParameter PlasticMaxValue { get { if (__plasticMaxValue == null) __plasticMaxValue = GetValue<FloatParameter>("PlasticMaxValue"); return __plasticMaxValue; } }
 	public static FloatParameter RunnerMoveMultiplier { get { if (__runnerMoveMultiplier == null) __runnerMoveMultiplier = GetValue<FloatParameter>("RunnerMoveMultiplier"); return __runnerMoveMultiplier; } }
+	public static FloatParameter WavePlasticSpawnChance { get { if (__wavePlasticSpawnChance == null) __wavePlasticSpawnChance = GetValue<FloatParameter>("WavePlasticSpawnChance"); return __wavePlasticSpawnChance; } }
+	public static FloatParameter WaveSize { get { if (__waveSize == null) __waveSize = GetValue<FloatParameter>("WaveSize"); return __waveSize; } }
+	public static FloatParameter WaveSpawnRate { get { if (__waveSpawnRate == null) __waveSpawnRate = GetValue<FloatParameter>("WaveSpawnRate"); return __waveSpawnRate; } }
+	public static FloatParameter WaveSpeed { get { if (__waveSpeed == null) __waveSpeed = GetValue<FloatParameter>("WaveSpeed"); return __waveSpeed; } }
 	
 	protected static FloatParameter[] __allFloatParameters;
+	protected static FloatParameter __bunksWompsAllowed;
+	protected static FloatParameter __canSwimInSea;
+	protected static FloatParameter __digsWompsAllowed;
+	protected static FloatParameter __hubWompsAllowed;
 	protected static FloatParameter __minerDamage;
 	protected static FloatParameter __minerMoveMultiplier;
-	protected static FloatParameter __minerReloadTime;
+	protected static FloatParameter __miningSpeed;
+	protected static FloatParameter __plasticMaxValue;
 	protected static FloatParameter __runnerMoveMultiplier;
+	protected static FloatParameter __wavePlasticSpawnChance;
+	protected static FloatParameter __waveSize;
+	protected static FloatParameter __waveSpawnRate;
+	protected static FloatParameter __waveSpeed;
 
 }

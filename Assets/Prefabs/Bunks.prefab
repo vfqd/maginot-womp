@@ -13,9 +13,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: buildingName
+      value: Bunks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: buildingType
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: maxWompsAllowed
+      value: 
+      objectReference: {fileID: 11400000, guid: 8bc59e2b104613242bd660d156b90620, type: 2}
     - target: {fileID: 4085667274484242274, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -68,5 +76,26 @@ PrefabInstance:
     - {fileID: 471562676478917618, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4366499727345402265, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 587944467978426136}
   m_SourcePrefab: {fileID: 100100000, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+--- !u!1 &163986054436822371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4366499727345402265, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+  m_PrefabInstance: {fileID: 4530186009967615226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &587944467978426136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163986054436822371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b70ba2081ff436bb846b6ca42b03142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wompsPerBunks: {fileID: 11400000, guid: 8bc59e2b104613242bd660d156b90620, type: 2}

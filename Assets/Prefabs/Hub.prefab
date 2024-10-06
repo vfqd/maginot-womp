@@ -101,10 +101,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7ec651e9134f2ab6b1fbe870c9ec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxWompsAllowed: {fileID: 11400000, guid: 066bc62b97ed3f94b8b0879ccaa86483, type: 2}
   wompPrefab: {fileID: 3263218691491051803, guid: 8bd1d9a5e295d6c43adb23f52bdfdcaa, type: 3}
   buildingType: 1
   center: {fileID: 0}
   width: 5
+  wompCount: 0
+  buildingName: Hub
 --- !u!114 &5287853930302205541
 MonoBehaviour:
   m_ObjectHideFlags: 0

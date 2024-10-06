@@ -17,7 +17,7 @@ namespace Womps
         public SpriteAnimation miningAnim;
 
         public FloatParameter miningDamage;
-        public FloatParameter miningReloadTime;
+        public FloatParameter miningSpeed;
 
         private float _attackTimer;
         private float _retaskTimer = 1;
@@ -35,7 +35,7 @@ namespace Womps
                 _attackTimer -= Time.deltaTime;
                 if (_attackTimer <= 0)
                 {
-                    _attackTimer = miningReloadTime;
+                    _attackTimer = 1 / miningSpeed;
                     miningTile.tileHealth.DealDamage(miningDamage);
                     if (miningTile.Type == TileType.Air)
                     {
@@ -71,7 +71,7 @@ namespace Womps
                     {
                         _womp.visualsLocked = true;
                         miningTile = targetTile;
-                        _womp.spriteAnimator.Play(miningAnim, miningReloadTime);
+                        _womp.spriteAnimator.Play(miningAnim, miningSpeed);
                         _womp.spriteRenderer.flipX = miningTile.transform.position.x > transform.position.x;
                     }
                     targetTile = null;

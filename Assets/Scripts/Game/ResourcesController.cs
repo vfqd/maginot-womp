@@ -35,14 +35,16 @@ namespace Game
             }
         }
 
-        public void CreateResourcePileAt(ResourceType type, Vector3 location, float value)
+        public ResourcePile CreateResourcePileAt(ResourceType type, Vector3 location, float value, bool collectable)
         {
             print($"Create resource pile {type} {location}");
             var newPile = Instantiate(pilePrefab, location, Quaternion.identity,transform);
             newPile.type = type;
             newPile.spriteRenderer.sprite = resourceSprites[type];
             newPile.value = value;
+            newPile.canBeCollected = collectable;
             piles.Add(newPile);
+            return newPile;
         }
 
         public Tile GetHubDropPoint()
@@ -55,23 +57,24 @@ namespace Game
             reservations[runner] = pile;
         }
 
-        public ResourcePile GetNearestResourcePileTo(Vector3 location)
+        public ResourcePile GetHighestValueResourcePile(Vector3 location)
         {
-            ResourcePile closest = null;
-            float dist = Single.MaxValue;
+            ResourcePile mostValuable = null;
+            float value = Single.MinValue;
             var reserved = new HashSet<ResourcePile>(reservations.Values);
 
             foreach (var pile in piles)
             {
+                if (!pile.canBeCollected) continue;
                 if (reserved.Contains(pile)) continue;
-                var d = Vector3.Distance(pile.transform.position, location);
-                if (d < dist)
+                // var d = Vector3.Distance(pile.transform.position, location);
+                if (pile.value > value)
                 {
-                    closest = pile;
-                    dist = d;
+                    mostValuable = pile;
+                    value = pile.value;
                 }
             }
-            return closest;
+            return mostValuable;
         }
 
         public void DepositResourcePile(Runner runner, ResourcePile pile)
@@ -85,9 +88,19 @@ namespace Game
             pile.transform.DOPath(new[] { start, mid, end }, 0.5f, PathType.CatmullRom)
                 .OnComplete(() =>
                 {
-                    resourceCounts[pile.type] += pile.value;
+                    resourceCounts[pile.type] = Mathf.Max(0, resourceCounts[pile.type]+pile.value);
                     Destroy(pile.gameObject);
                 });
+        }
+
+        public void SetResourceValue(ResourceType resourceType, float value)
+        {
+            resourceCounts[resourceType] = Mathf.Max(0, value);
+        }
+        
+        public void ChangeResourceValue(ResourceType resourceType, float value)
+        {
+            resourceCounts[resourceType] = Mathf.Max(0, resourceCounts[resourceType]+value);
         }
     }
 }

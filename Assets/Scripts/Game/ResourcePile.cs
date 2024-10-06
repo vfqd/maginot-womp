@@ -10,6 +10,7 @@ namespace Game
         public SpriteRenderer spriteRenderer;
         public ResourceType type;
         public float value;
+        public bool canBeCollected = false;
 
         private Sequence _moveDown;
 

@@ -4,7 +4,13 @@ using UnityEngine;
 
 public partial class FloatParameter : ScriptableEnum
 {
+    public float startingValue;
     public float value;
+
+    public void ResetValue()
+    {
+        value = startingValue;
+    }
     
     public static implicit operator float(FloatParameter value) 
     {

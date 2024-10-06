@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffbebe0403942b1a1c7b6640865cadb, type: 3}
+  m_Name: WaveAnim
+  m_EditorClassIdentifier: 
+  frames:
+  - duration: 0.2
+    sprite: {fileID: 1657218868, guid: c2f80bf7718629c4fa73759ae9b419e3, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  - duration: 0.2
+    sprite: {fileID: -808647239, guid: c2f80bf7718629c4fa73759ae9b419e3, type: 3}
+    hatOffset: 0
+    hasEvent: 0
+    eventClassName: 
+    animationEvent: 
+  loop: 1
+  startAtRandomIndex: 1
+  startingFrame: 0

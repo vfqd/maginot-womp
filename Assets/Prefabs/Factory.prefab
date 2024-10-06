@@ -13,9 +13,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: buildingName
+      value: Factory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: buildingType
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1043066928564029490, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
+      propertyPath: maxWompsAllowed
+      value: 
+      objectReference: {fileID: 11400000, guid: 23a882ef178516e4fae7646051476b66, type: 2}
     - target: {fileID: 4085667274484242274, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -58,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366499727345402265, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_Name
-      value: Surf
+      value: Factory
       objectReference: {fileID: 0}
     - target: {fileID: 4437094439005878336, guid: d1c9d7d9de3a352449f0cda307be1817, type: 3}
       propertyPath: m_Sprite

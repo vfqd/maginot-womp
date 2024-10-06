@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: RunnerMoveMultiplier
   m_EditorClassIdentifier: 
   _guid: 176e6ed5aeab51f4a92d86d69ab8c33f
+  startingValue: 2
   value: 2
